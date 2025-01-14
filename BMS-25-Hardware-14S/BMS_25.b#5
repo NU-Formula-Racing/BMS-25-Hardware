@@ -3235,7 +3235,6 @@ wave soldering</description>
 <signal name="BAT">
 <via x="54.5592" y="47.0408" extent="1-16" drill="0.35"/>
 <wire x1="46.6852" y1="47.0408" x2="54.5592" y2="47.0408" width="0.6096" layer="15"/>
-<contactref element="RVC14" pad="1"/>
 <contactref element="RBAT" pad="1"/>
 <contactref element="RNPN" pad="1"/>
 <wire x1="11.811" y1="19.0754" x2="11.811" y2="6.8326" width="0.6096" layer="1"/>
@@ -3246,10 +3245,12 @@ wave soldering</description>
 <wire x1="31.2928" y1="31.6484" x2="32.424" y2="31.6484" width="0.6096" layer="1"/>
 <wire x1="54.5592" y1="47.0408" x2="54.6104" y2="47.092" width="0.6096" layer="1"/>
 <wire x1="54.6104" y1="47.092" x2="56.4896" y2="47.092" width="0.6096" layer="1"/>
-<contactref element="LOW-IN" pad="01"/>
-<wire x1="13.2588" y1="6.2484" x2="13.2588" y2="9.1576" width="0.6096" layer="1"/>
 <wire x1="11.811" y1="6.8326" x2="12.3952" y2="6.2484" width="0.6096" layer="1"/>
-<wire x1="12.3952" y1="6.2484" x2="13.2588" y2="6.2484" width="0.6096" layer="1"/>
+<contactref element="RCB14" pad="1"/>
+<contactref element="LOW-IN" pad="02"/>
+<wire x1="9.398" y1="7.5692" x2="13.2588" y2="3.7084" width="0.3048" layer="16"/>
+<wire x1="13.2588" y1="3.7084" x2="12.3952" y2="6.2484" width="0" layer="19" extent="1-1"/>
+<wire x1="9.398" y1="9.738" x2="9.398" y2="7.5692" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VC8-IN">
 <contactref element="RVC8" pad="1"/>
@@ -5464,12 +5465,8 @@ wave soldering</description>
 <via x="106.426" y="10.922" extent="1-16" drill="0.35"/>
 <wire x1="106.426" y1="10.922" x2="109.3724" y2="10.922" width="0.6096" layer="15"/>
 <wire x1="109.3724" y1="10.922" x2="115.697" y2="17.2466" width="0.6096" layer="15"/>
-<contactref element="RVC14-1" pad="1"/>
 <contactref element="RBAT-1" pad="1"/>
 <contactref element="RNPN-1" pad="1"/>
-<contactref element="HIGH-IN" pad="01"/>
-<wire x1="128.524" y1="42.9632" x2="128.524" y2="46.228" width="0.6096" layer="1"/>
-<wire x1="128.524" y1="46.228" x2="130.0988" y2="44.6532" width="0.6096" layer="1"/>
 <wire x1="130.0988" y1="44.6532" x2="130.0988" y2="35.6616" width="0.6096" layer="1"/>
 <wire x1="117.7036" y1="23.2664" x2="115.7224" y2="23.2664" width="0.6096" layer="1"/>
 <via x="115.7224" y="23.2664" extent="1-16" drill="0.35"/>
@@ -5480,6 +5477,14 @@ wave soldering</description>
 <wire x1="115.697" y1="23.241" x2="115.697" y2="17.2466" width="0.6096" layer="15"/>
 <wire x1="106.426" y1="10.922" x2="104.8" y2="10.922" width="0.6096" layer="1"/>
 <wire x1="104.8" y1="10.922" x2="104.5464" y2="10.6684" width="0.6096" layer="1"/>
+<contactref element="RCB14-1" pad="1"/>
+<contactref element="HIGH-IN" pad="02"/>
+<wire x1="133.0706" y1="42.86854375" x2="130.4798" y2="45.45934375" width="0.3048" layer="16"/>
+<wire x1="130.4798" y1="45.45934375" x2="130.4798" y2="46.863" width="0.3048" layer="16"/>
+<wire x1="128.524" y1="48.768" x2="128.5748" y2="48.768" width="0.3048" layer="16"/>
+<wire x1="130.4798" y1="46.863" x2="128.5748" y2="48.768" width="0.3048" layer="16"/>
+<wire x1="133.0706" y1="42.86854375" x2="133.0706" y2="41.951" width="0" layer="19" extent="16-16"/>
+<wire x1="130.0988" y1="44.6532" x2="133.0706" y2="42.86854375" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="CB0-IN-1">
 <contactref element="RCB0-1" pad="1"/>
@@ -5837,12 +5842,6 @@ wave soldering</description>
 <wire x1="17.1082" y1="8.1238" x2="17.1082" y2="4.95923125" width="0.3048" layer="16"/>
 <wire x1="17.1082" y1="4.95923125" x2="18.3388" y2="3.72863125" width="0.3048" layer="16"/>
 </signal>
-<signal name="CB14-IN">
-<contactref element="RCB14" pad="1"/>
-<contactref element="LOW-IN" pad="02"/>
-<wire x1="9.398" y1="9.738" x2="9.398" y2="7.5692" width="0.3048" layer="16"/>
-<wire x1="9.398" y1="7.5692" x2="13.2588" y2="3.7084" width="0.3048" layer="16"/>
-</signal>
 <signal name="CB13">
 <contactref element="CCB13" pad="1"/>
 <contactref element="RCB13" pad="2"/>
@@ -6024,15 +6023,6 @@ wave soldering</description>
 <contactref element="HIGH-IN" pad="03"/>
 <wire x1="125.984" y1="42.9632" x2="125.984" y2="46.228" width="0.6096" layer="1"/>
 </signal>
-<signal name="CB14-IN-1">
-<contactref element="RCB14-1" pad="1"/>
-<contactref element="HIGH-IN" pad="02"/>
-<wire x1="133.0706" y1="41.951" x2="133.0706" y2="42.86854375" width="0.3048" layer="16"/>
-<wire x1="133.0706" y1="42.86854375" x2="130.4798" y2="45.45934375" width="0.3048" layer="16"/>
-<wire x1="130.4798" y1="45.45934375" x2="130.4798" y2="46.863" width="0.3048" layer="16"/>
-<wire x1="128.524" y1="48.768" x2="128.5748" y2="48.768" width="0.3048" layer="16"/>
-<wire x1="130.4798" y1="46.863" x2="128.5748" y2="48.768" width="0.3048" layer="16"/>
-</signal>
 <signal name="CB11-IN-1">
 <contactref element="RCB11-1" pad="1"/>
 <contactref element="HIGH-IN" pad="08"/>
@@ -6076,6 +6066,16 @@ wave soldering</description>
 <wire x1="128.6008" y1="44.16536875" x2="127.2032" y2="45.56296875" width="0.3048" layer="16"/>
 <wire x1="127.2032" y1="47.5488" x2="125.984" y2="48.768" width="0.3048" layer="16"/>
 <wire x1="127.2032" y1="45.56296875" x2="127.2032" y2="47.5488" width="0.3048" layer="16"/>
+</signal>
+<signal name="VC14-IN">
+<contactref element="RVC14" pad="1"/>
+<contactref element="LOW-IN" pad="01"/>
+<wire x1="13.2588" y1="6.2484" x2="13.2588" y2="9.1576" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VC14-IN-1">
+<contactref element="HIGH-IN" pad="01"/>
+<contactref element="RVC14-1" pad="1"/>
+<wire x1="128.524" y1="42.9632" x2="128.524" y2="46.228" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

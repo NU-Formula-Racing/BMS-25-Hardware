@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -3503,13 +3503,12 @@ wave soldering</description>
 <wire x1="31.2928" y1="31.6484" x2="32.424" y2="31.6484" width="0.6096" layer="1"/>
 <wire x1="54.5592" y1="47.0408" x2="54.6104" y2="47.092" width="0.6096" layer="1"/>
 <wire x1="54.6104" y1="47.092" x2="56.4896" y2="47.092" width="0.6096" layer="1"/>
-<wire x1="11.811" y1="5.0546" x2="12.1412" y2="4.7244" width="0.6096" layer="1"/>
 <contactref element="RCB14" pad="1"/>
 <contactref element="LOW-IN" pad="02"/>
-<wire x1="9.398" y1="7.5692" x2="13.2588" y2="3.7084" width="0.3048" layer="16"/>
-<wire x1="12.1412" y1="4.7244" x2="13.1572" y2="3.7084" width="0.6096" layer="1"/>
+<wire x1="13.2588" y1="3.7084" x2="9.398" y2="7.5692" width="0.3048" layer="16"/>
+<wire x1="11.811" y1="5.0546" x2="13.1572" y2="3.7084" width="0.6096" layer="1"/>
 <wire x1="13.1572" y1="3.7084" x2="13.2588" y2="3.7084" width="0.1524" layer="1"/>
-<wire x1="9.398" y1="7.5692" x2="9.398" y2="9.738" width="0" layer="19" extent="16-16"/>
+<wire x1="9.398" y1="7.5692" x2="9.398" y2="9.738" width="0.3048" layer="16"/>
 </signal>
 <signal name="VC8-IN">
 <contactref element="RVC8" pad="1"/>
@@ -5738,13 +5737,13 @@ wave soldering</description>
 <wire x1="104.8" y1="10.922" x2="104.5464" y2="10.6684" width="0.6096" layer="1"/>
 <contactref element="RCB14-1" pad="1"/>
 <contactref element="HIGH-IN" pad="02"/>
-<wire x1="133.0706" y1="42.86854375" x2="130.4798" y2="45.45934375" width="0.3048" layer="16"/>
+<wire x1="130.4798" y1="45.45934375" x2="133.0706" y2="42.86854375" width="0.3048" layer="16"/>
 <wire x1="130.4798" y1="45.45934375" x2="130.4798" y2="46.863" width="0.3048" layer="16"/>
 <wire x1="128.524" y1="48.768" x2="128.5748" y2="48.768" width="0.3048" layer="16"/>
 <wire x1="130.4798" y1="46.863" x2="128.5748" y2="48.768" width="0.3048" layer="16"/>
 <wire x1="128.524" y1="48.768" x2="130.3528" y2="46.9392" width="0.6096" layer="1"/>
 <wire x1="130.3528" y1="46.9392" x2="130.4798" y2="46.9392" width="0.1524" layer="1"/>
-<wire x1="133.0706" y1="42.86854375" x2="133.0706" y2="41.951" width="0" layer="19" extent="16-16"/>
+<wire x1="133.0706" y1="42.86854375" x2="133.0706" y2="41.951" width="0.3048" layer="16"/>
 </signal>
 <signal name="CB0-IN-1">
 <contactref element="RCB0-1" pad="1"/>

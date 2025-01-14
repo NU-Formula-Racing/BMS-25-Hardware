@@ -12595,13 +12595,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="-99.06" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CB13IN" class="0">
-<segment>
-<wire x1="-66.04" y1="-40.64" x2="-35.56" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-66.04" y="-40.64" size="1.778" layer="95"/>
-<pinref part="RCB13" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="CB14-IN" class="0">
 <segment>
 <wire x1="-66.04" y1="-27.94" x2="-35.56" y2="-27.94" width="0.1524" layer="91"/>
@@ -12825,13 +12818,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="-127" y="187.96" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="CB13IN-1" class="0">
-<segment>
-<wire x1="-68.58" y1="246.38" x2="-38.1" y2="246.38" width="0.1524" layer="91"/>
-<label x="-68.58" y="246.38" size="1.778" layer="95"/>
-<pinref part="RCB13-1" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="CB14-IN-1" class="0">
 <segment>
 <wire x1="-68.58" y1="259.08" x2="-38.1" y2="259.08" width="0.1524" layer="91"/>
@@ -12888,12 +12874,22 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-104.14" y1="-109.22" x2="-99.06" y2="-109.22" width="0.1524" layer="91"/>
 <label x="-99.06" y="-109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-66.04" y1="-40.64" x2="-35.56" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-66.04" y="-40.64" size="1.778" layer="95"/>
+<pinref part="RCB13" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="CB13-IN-1" class="0">
 <segment>
 <pinref part="HIGH-IN" gate="G$1" pin="04"/>
 <wire x1="-96.52" y1="187.96" x2="-91.44" y2="187.96" width="0.1524" layer="91"/>
 <label x="-91.44" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-68.58" y1="246.38" x2="-38.1" y2="246.38" width="0.1524" layer="91"/>
+<label x="-68.58" y="246.38" size="1.778" layer="95"/>
+<pinref part="RCB13-1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
