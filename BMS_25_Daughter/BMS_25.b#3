@@ -303,421 +303,6 @@
 <circle x="119.888" y="42.037" radius="0.254" width="0.508" layer="42"/>
 <circle x="123.317" y="39.37" radius="0.254" width="0.508" layer="42"/>
 <circle x="123.317" y="34.417" radius="0.254" width="0.508" layer="42"/>
-<polygon width="0.1524" layer="41">
-<vertex x="26.67" y="10.3124"/>
-<vertex x="27.686" y="10.3124"/>
-<vertex x="27.686" y="11.4808"/>
-<vertex x="27.94" y="11.7348"/>
-<vertex x="27.9908" y="11.7348"/>
-<vertex x="27.9908" y="12.954"/>
-<vertex x="35.2044" y="20.1676"/>
-<vertex x="36.1696" y="20.1676"/>
-<vertex x="36.2204" y="20.2184"/>
-<vertex x="36.2204" y="21.6408"/>
-<vertex x="36.3728" y="21.7932"/>
-<vertex x="36.576" y="21.7932"/>
-<vertex x="37.5412" y="21.7932"/>
-<vertex x="37.6936" y="21.6408"/>
-<vertex x="37.6936" y="21.336"/>
-<vertex x="37.8968" y="21.5392"/>
-<vertex x="38.4048" y="21.5392"/>
-<vertex x="38.8112" y="21.1328"/>
-<vertex x="40.2844" y="21.1328"/>
-<vertex x="40.2844" y="21.8948"/>
-<vertex x="36.322" y="21.8948"/>
-<vertex x="36.2204" y="21.9964"/>
-<vertex x="36.1696" y="22.0472"/>
-<vertex x="36.1696" y="22.1996"/>
-<vertex x="35.1028" y="22.1996"/>
-<vertex x="26.416" y="13.5128"/>
-<vertex x="26.416" y="11.6332"/>
-<vertex x="26.67" y="11.6332"/>
-<vertex x="26.7716" y="11.5316"/>
-<vertex x="26.7716" y="11.3792"/>
-<vertex x="26.7716" y="10.414"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="29.1592" y="10.2616"/>
-<vertex x="30.226" y="10.2616"/>
-<vertex x="30.226" y="11.5316"/>
-<vertex x="30.3276" y="11.6332"/>
-<vertex x="30.5816" y="11.6332"/>
-<vertex x="30.5816" y="12.0904"/>
-<vertex x="30.5816" y="12.192"/>
-<vertex x="36.1696" y="17.78"/>
-<vertex x="36.1696" y="18.5928"/>
-<vertex x="36.322" y="18.7452"/>
-<vertex x="38.9636" y="18.7452"/>
-<vertex x="38.9636" y="19.304"/>
-<vertex x="39.1668" y="19.5072"/>
-<vertex x="40.4368" y="19.5072"/>
-<vertex x="40.5892" y="19.6596"/>
-<vertex x="40.5892" y="19.7612"/>
-<vertex x="40.5384" y="19.7104"/>
-<vertex x="37.6936" y="19.7104"/>
-<vertex x="37.6936" y="19.05"/>
-<vertex x="37.7444" y="18.9992"/>
-<vertex x="37.6936" y="18.9992"/>
-<vertex x="37.5412" y="18.8468"/>
-<vertex x="36.322" y="18.8468"/>
-<vertex x="36.1696" y="18.9992"/>
-<vertex x="36.1696" y="19.1516"/>
-<vertex x="35.6108" y="19.1516"/>
-<vertex x="28.956" y="12.4968"/>
-<vertex x="28.956" y="11.6332"/>
-<vertex x="29.1592" y="11.6332"/>
-<vertex x="29.2608" y="11.5316"/>
-<vertex x="29.2608" y="11.43"/>
-<vertex x="29.2608" y="10.3632"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="31.6992" y="10.2616"/>
-<vertex x="32.7152" y="10.2616"/>
-<vertex x="32.7152" y="11.4808"/>
-<vertex x="32.8676" y="11.6332"/>
-<vertex x="32.9184" y="11.684"/>
-<vertex x="33.4264" y="11.684"/>
-<vertex x="37.4904" y="15.748"/>
-<vertex x="37.6428" y="15.748"/>
-<vertex x="39.0144" y="15.748"/>
-<vertex x="39.0144" y="16.002"/>
-<vertex x="39.116" y="16.1036"/>
-<vertex x="39.37" y="16.1036"/>
-<vertex x="39.37" y="16.2052"/>
-<vertex x="39.0652" y="16.2052"/>
-<vertex x="38.9636" y="16.3068"/>
-<vertex x="38.9128" y="16.3068"/>
-<vertex x="38.9128" y="17.526"/>
-<vertex x="39.1668" y="17.78"/>
-<vertex x="40.4876" y="17.78"/>
-<vertex x="40.5384" y="17.7292"/>
-<vertex x="40.5384" y="17.3228"/>
-<vertex x="41.7576" y="17.3228"/>
-<vertex x="42.1132" y="17.6784"/>
-<vertex x="41.8592" y="17.6784"/>
-<vertex x="41.5544" y="17.9832"/>
-<vertex x="41.5036" y="18.034"/>
-<vertex x="41.5036" y="18.2372"/>
-<vertex x="40.5384" y="18.2372"/>
-<vertex x="40.5384" y="17.9324"/>
-<vertex x="39.0144" y="17.9324"/>
-<vertex x="37.7444" y="17.9324"/>
-<vertex x="37.7444" y="17.272"/>
-<vertex x="37.6428" y="17.1704"/>
-<vertex x="37.592" y="17.1196"/>
-<vertex x="36.6776" y="17.1196"/>
-<vertex x="31.3944" y="11.8364"/>
-<vertex x="31.3944" y="11.6332"/>
-<vertex x="31.6484" y="11.6332"/>
-<vertex x="31.75" y="11.5316"/>
-<vertex x="31.8516" y="11.43"/>
-<vertex x="31.8516" y="10.414"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="34.29" y="10.3124"/>
-<vertex x="34.3408" y="10.2616"/>
-<vertex x="35.2552" y="10.2616"/>
-<vertex x="35.2552" y="11.4808"/>
-<vertex x="35.4076" y="11.6332"/>
-<vertex x="35.4584" y="11.684"/>
-<vertex x="36.2712" y="11.684"/>
-<vertex x="37.9476" y="13.3604"/>
-<vertex x="39.4716" y="13.3604"/>
-<vertex x="40.7416" y="14.6304"/>
-<vertex x="40.7416" y="15.9004"/>
-<vertex x="40.8432" y="16.002"/>
-<vertex x="42.418" y="16.002"/>
-<vertex x="42.8244" y="16.4084"/>
-<vertex x="42.6212" y="16.4084"/>
-<vertex x="42.3164" y="16.7132"/>
-<vertex x="42.2656" y="16.764"/>
-<vertex x="42.2656" y="16.9164"/>
-<vertex x="42.0116" y="16.6624"/>
-<vertex x="41.9608" y="16.6624"/>
-<vertex x="40.4876" y="16.6624"/>
-<vertex x="40.4876" y="16.4084"/>
-<vertex x="40.3352" y="16.256"/>
-<vertex x="40.2336" y="16.1544"/>
-<vertex x="40.132" y="16.1544"/>
-<vertex x="40.132" y="16.0528"/>
-<vertex x="40.386" y="16.0528"/>
-<vertex x="40.5892" y="15.8496"/>
-<vertex x="40.5892" y="14.732"/>
-<vertex x="40.4368" y="14.5796"/>
-<vertex x="40.2844" y="14.5796"/>
-<vertex x="39.0652" y="14.5796"/>
-<vertex x="38.9636" y="14.6812"/>
-<vertex x="38.9636" y="14.9352"/>
-<vertex x="37.7952" y="14.9352"/>
-<vertex x="34.3408" y="11.4808"/>
-<vertex x="34.3408" y="10.3632"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="36.83" y="10.3124"/>
-<vertex x="38.3032" y="10.3124"/>
-<vertex x="38.3032" y="11.4808"/>
-<vertex x="38.4556" y="11.6332"/>
-<vertex x="38.5064" y="11.684"/>
-<vertex x="39.37" y="11.684"/>
-<vertex x="40.5384" y="12.8524"/>
-<vertex x="42.0116" y="12.8524"/>
-<vertex x="43.8404" y="14.6812"/>
-<vertex x="43.7388" y="14.7828"/>
-<vertex x="43.7388" y="15.9512"/>
-<vertex x="43.942" y="16.1544"/>
-<vertex x="44.5008" y="16.1544"/>
-<vertex x="44.3992" y="16.256"/>
-<vertex x="44.0944" y="16.256"/>
-<vertex x="44.0436" y="16.3068"/>
-<vertex x="44.0436" y="16.6624"/>
-<vertex x="43.5356" y="16.1544"/>
-<vertex x="43.4848" y="16.1544"/>
-<vertex x="43.5864" y="16.0528"/>
-<vertex x="43.5864" y="15.9512"/>
-<vertex x="43.6372" y="15.9004"/>
-<vertex x="43.6372" y="14.7828"/>
-<vertex x="43.434" y="14.5796"/>
-<vertex x="41.656" y="14.5796"/>
-<vertex x="41.656" y="14.5288"/>
-<vertex x="39.7764" y="12.6492"/>
-<vertex x="39.6748" y="12.5476"/>
-<vertex x="38.3032" y="12.5476"/>
-<vertex x="36.83" y="11.0744"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="39.878" y="10.2616"/>
-<vertex x="40.894" y="10.2616"/>
-<vertex x="40.894" y="11.5316"/>
-<vertex x="40.9448" y="11.5824"/>
-<vertex x="42.3672" y="11.5824"/>
-<vertex x="42.5196" y="11.43"/>
-<vertex x="42.5196" y="11.3792"/>
-<vertex x="46.3296" y="15.1892"/>
-<vertex x="45.3644" y="15.1892"/>
-<vertex x="45.3644" y="14.7828"/>
-<vertex x="45.1612" y="14.5796"/>
-<vertex x="44.9072" y="14.5796"/>
-<vertex x="42.3672" y="12.0396"/>
-<vertex x="40.8432" y="12.0396"/>
-<vertex x="39.878" y="11.0744"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="42.3672" y="10.2108"/>
-<vertex x="43.5356" y="10.2108"/>
-<vertex x="43.5356" y="11.176"/>
-<vertex x="43.4848" y="11.2268"/>
-<vertex x="42.7736" y="10.5156"/>
-<vertex x="42.7228" y="10.4648"/>
-<vertex x="42.5196" y="10.4648"/>
-<vertex x="42.3672" y="10.3124"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="45.0088" y="10.2108"/>
-<vertex x="46.0756" y="10.2108"/>
-<vertex x="46.0756" y="11.4808"/>
-<vertex x="46.228" y="11.6332"/>
-<vertex x="46.2788" y="11.6332"/>
-<vertex x="47.0916" y="11.6332"/>
-<vertex x="50.0888" y="14.6304"/>
-<vertex x="50.0888" y="14.986"/>
-<vertex x="49.784" y="14.986"/>
-<vertex x="49.4284" y="15.3416"/>
-<vertex x="49.3268" y="15.3416"/>
-<vertex x="45.1104" y="11.1252"/>
-<vertex x="45.1104" y="10.3124"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="45.0596" y="9.8552"/>
-<vertex x="46.1264" y="9.8552"/>
-<vertex x="46.1264" y="9.1948"/>
-<vertex x="45.6692" y="8.7376"/>
-<vertex x="45.6692" y="8.0772"/>
-<vertex x="44.196" y="8.0772"/>
-<vertex x="44.196" y="8.128"/>
-<vertex x="44.5008" y="8.4328"/>
-<vertex x="45.0088" y="8.4328"/>
-<vertex x="45.1612" y="8.5852"/>
-<vertex x="45.1612" y="9.8044"/>
-<vertex x="45.1104" y="9.8552"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="42.3672" y="9.8552"/>
-<vertex x="43.5864" y="9.8552"/>
-<vertex x="43.5356" y="9.8044"/>
-<vertex x="43.5356" y="9.0424"/>
-<vertex x="43.1292" y="8.636"/>
-<vertex x="43.1292" y="8.128"/>
-<vertex x="41.7576" y="8.128"/>
-<vertex x="41.7576" y="8.4328"/>
-<vertex x="42.3672" y="8.4328"/>
-<vertex x="42.5196" y="8.5852"/>
-<vertex x="42.5196" y="9.7028"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="39.8272" y="9.8552"/>
-<vertex x="40.9448" y="9.8552"/>
-<vertex x="40.8432" y="9.7536"/>
-<vertex x="40.8432" y="9.1948"/>
-<vertex x="40.5384" y="8.89"/>
-<vertex x="40.5384" y="8.128"/>
-<vertex x="39.2176" y="8.128"/>
-<vertex x="39.2176" y="8.4328"/>
-<vertex x="39.7764" y="8.4328"/>
-<vertex x="39.9288" y="8.5852"/>
-<vertex x="39.9288" y="9.7536"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="36.7792" y="9.8552"/>
-<vertex x="38.4048" y="9.8552"/>
-<vertex x="38.3032" y="9.7536"/>
-<vertex x="38.3032" y="9.1948"/>
-<vertex x="37.9984" y="8.89"/>
-<vertex x="37.9984" y="8.128"/>
-<vertex x="36.6776" y="8.128"/>
-<vertex x="36.6776" y="8.4328"/>
-<vertex x="36.8808" y="8.636"/>
-<vertex x="36.8808" y="9.652"/>
-<vertex x="36.8808" y="9.7536"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="34.2392" y="9.8552"/>
-<vertex x="35.4076" y="9.8552"/>
-<vertex x="35.2552" y="9.7028"/>
-<vertex x="35.2552" y="8.636"/>
-<vertex x="35.4584" y="8.4328"/>
-<vertex x="35.4584" y="8.0772"/>
-<vertex x="34.0868" y="8.0772"/>
-<vertex x="34.0868" y="8.3312"/>
-<vertex x="34.29" y="8.5344"/>
-<vertex x="34.29" y="9.8044"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="31.6992" y="9.8552"/>
-<vertex x="32.8676" y="9.8552"/>
-<vertex x="32.7152" y="9.7028"/>
-<vertex x="32.7152" y="8.5852"/>
-<vertex x="32.8676" y="8.4328"/>
-<vertex x="32.9184" y="8.4328"/>
-<vertex x="32.9184" y="8.0772"/>
-<vertex x="31.5976" y="8.0772"/>
-<vertex x="31.5468" y="8.128"/>
-<vertex x="31.5468" y="8.3312"/>
-<vertex x="31.75" y="8.5344"/>
-<vertex x="31.75" y="9.8044"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="29.1084" y="9.8552"/>
-<vertex x="30.3276" y="9.8552"/>
-<vertex x="30.226" y="9.7536"/>
-<vertex x="30.226" y="8.636"/>
-<vertex x="30.226" y="8.5852"/>
-<vertex x="30.3784" y="8.4328"/>
-<vertex x="30.3784" y="8.0772"/>
-<vertex x="29.0068" y="8.0772"/>
-<vertex x="29.0068" y="8.4328"/>
-<vertex x="29.1592" y="8.5852"/>
-<vertex x="29.21" y="8.5852"/>
-<vertex x="29.21" y="9.7536"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="26.6192" y="9.8552"/>
-<vertex x="27.7368" y="9.8552"/>
-<vertex x="27.6352" y="9.7536"/>
-<vertex x="27.6352" y="8.636"/>
-<vertex x="27.8384" y="8.4328"/>
-<vertex x="27.8384" y="8.0772"/>
-<vertex x="26.3652" y="8.0772"/>
-<vertex x="26.3652" y="8.4328"/>
-<vertex x="26.5684" y="8.4328"/>
-<vertex x="26.7208" y="8.5852"/>
-<vertex x="26.7208" y="9.7536"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="23.8252" y="9.8552"/>
-<vertex x="25.2476" y="9.8552"/>
-<vertex x="25.146" y="9.7536"/>
-<vertex x="25.146" y="8.636"/>
-<vertex x="25.146" y="8.5852"/>
-<vertex x="25.2476" y="8.4836"/>
-<vertex x="25.2984" y="8.4328"/>
-<vertex x="25.4508" y="8.4328"/>
-<vertex x="25.4508" y="8.0772"/>
-<vertex x="23.8252" y="8.0772"/>
-<vertex x="23.8252" y="9.906"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="47.5488" y="10.2616"/>
-<vertex x="48.6156" y="10.2616"/>
-<vertex x="48.6156" y="11.4808"/>
-<vertex x="48.768" y="11.6332"/>
-<vertex x="49.3776" y="11.6332"/>
-<vertex x="50.4444" y="12.7"/>
-<vertex x="50.4444" y="13.6144"/>
-<vertex x="50.546" y="13.716"/>
-<vertex x="51.308" y="13.716"/>
-<vertex x="51.308" y="14.986"/>
-<vertex x="50.9016" y="14.986"/>
-<vertex x="50.9016" y="14.4272"/>
-<vertex x="47.6504" y="11.176"/>
-<vertex x="47.6504" y="10.3124"/>
-<vertex x="47.5996" y="10.2616"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="35.8648" y="27.686"/>
-<vertex x="36.322" y="27.686"/>
-<vertex x="36.1696" y="27.5336"/>
-<vertex x="36.1696" y="26.3652"/>
-<vertex x="36.4236" y="26.1112"/>
-<vertex x="37.4904" y="26.1112"/>
-<vertex x="37.6936" y="26.3144"/>
-<vertex x="37.6936" y="26.5176"/>
-<vertex x="37.6936" y="24.7904"/>
-<vertex x="37.7444" y="24.7396"/>
-<vertex x="37.4904" y="24.7396"/>
-<vertex x="37.2364" y="24.9936"/>
-<vertex x="36.83" y="24.9936"/>
-<vertex x="36.5252" y="24.6888"/>
-<vertex x="35.9664" y="24.6888"/>
-<vertex x="35.814" y="24.8412"/>
-<vertex x="35.9664" y="24.9936"/>
-<vertex x="35.9664" y="27.432"/>
-<vertex x="35.9664" y="27.5844"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="20.2692" y="38.7096"/>
-<vertex x="20.4216" y="38.5572"/>
-<vertex x="22.352" y="38.5572"/>
-<vertex x="22.352" y="38.1508"/>
-<vertex x="21.9964" y="38.1508"/>
-<vertex x="21.8948" y="38.0492"/>
-<vertex x="21.8948" y="37.9984"/>
-<vertex x="21.7932" y="38.1"/>
-<vertex x="20.3708" y="38.1"/>
-<vertex x="20.3708" y="38.608"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="106.7816" y="32.9692"/>
-<vertex x="109.474" y="32.9692"/>
-<vertex x="109.5248" y="32.9184"/>
-<vertex x="109.5248" y="32.5628"/>
-<vertex x="109.474" y="32.512"/>
-<vertex x="109.22" y="32.258"/>
-<vertex x="108.966" y="32.258"/>
-<vertex x="108.3056" y="31.5976"/>
-<vertex x="108.2548" y="31.5976"/>
-<vertex x="108.204" y="31.5468"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="111.4044" y="29.8196"/>
-<vertex x="111.8616" y="29.8196"/>
-<vertex x="111.7092" y="29.6672"/>
-<vertex x="111.7092" y="28.4988"/>
-<vertex x="111.8616" y="28.3464"/>
-<vertex x="111.4044" y="28.3464"/>
-<vertex x="111.5568" y="28.4988"/>
-<vertex x="111.5568" y="29.5656"/>
-<vertex x="111.5568" y="29.6672"/>
-</polygon>
 </plain>
 <libraries>
 <library name="NFR23_v1.3">
@@ -2320,26 +1905,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
-<library name="C1206C105K5RACTU">
-<packages>
-<package name="CAPC3216X120N">
-<text x="-2.31" y="-1.25" size="0.5" layer="27" align="top-left">&gt;VALUE</text>
-<text x="-2.31" y="1.25" size="0.5" layer="25">&gt;NAME</text>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="1.6" y1="0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-0.57" y1="0.8" x2="0.57" y2="0.8" width="0.127" layer="21"/>
-<wire x1="-0.57" y1="-0.8" x2="0.57" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="-2.308" y1="-1.158" x2="2.308" y2="-1.158" width="0.05" layer="39"/>
-<wire x1="-2.308" y1="1.158" x2="2.308" y2="1.158" width="0.05" layer="39"/>
-<wire x1="-2.308" y1="-1.158" x2="-2.308" y2="1.158" width="0.05" layer="39"/>
-<wire x1="2.308" y1="-1.158" x2="2.308" y2="1.158" width="0.05" layer="39"/>
-<smd name="1" x="-1.475" y="0" dx="1.16" dy="1.82" layer="1"/>
-<smd name="2" x="1.475" y="0" dx="1.16" dy="1.82" layer="1"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2696,6 +2261,24 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="SPICEPREFIX" value="C" x="-6.604" y="168.148" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="109.601" y="31.623" size="1.27" layer="28" rot="MR90"/>
 </element>
+<element name="CCOMHN" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF" x="84.709" y="10.922" smashed="yes" rot="R90">
+<attribute name="NAME" x="86.1568" y="9.398" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="73" x="192.659" y="62.992" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="192.659" y="62.992" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="86.614" y="10.287" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="CCOMHP" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF" x="91.186" y="11.049" smashed="yes" rot="R90">
+<attribute name="NAME" x="88.3412" y="8.128" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="73" x="199.136" y="83.439" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="199.136" y="83.439" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="93.091" y="10.414" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="CCOMLN" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF" x="67.564" y="19.177" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.7484" y="16.2814" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="73" x="175.514" y="132.207" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="175.514" y="132.207" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="69.469" y="18.542" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="CCOMLN_BP" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="220pF" x="62.103" y="23.876" smashed="yes">
 <attribute name="NAME" x="59.817" y="25.0952" size="0.635" layer="25"/>
 <attribute name="POPULARITY" value="73" x="170.053" y="-68.834" size="1.778" layer="27" display="off"/>
@@ -2707,6 +2290,12 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="POPULARITY" value="73" x="4.826" y="115.062" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="4.826" y="115.062" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="85.471" y="24.257" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="CCOMLP" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF" x="64.77" y="14.478" smashed="yes" rot="R180">
+<attribute name="NAME" x="67.5132" y="13.1826" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="73" x="-78.74" y="122.428" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-78.74" y="122.428" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="65.405" y="16.383" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="CCOMLP_BP" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="220pF" x="57.785" y="23.876" smashed="yes" rot="R180">
 <attribute name="NAME" x="60.3504" y="25.781" size="0.762" layer="25" rot="R180"/>
@@ -2743,6 +2332,18 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="POPULARITY" value="73" x="-6.604" y="-76.708" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-6.604" y="-76.708" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="99.441" y="16.637" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="CISOL" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF" x="73.406" y="31.242" smashed="yes" rot="R180">
+<attribute name="NAME" x="73.6346" y="32.4612" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="73" x="-44.704" y="169.672" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-44.704" y="169.672" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="74.041" y="33.147" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="CISOL1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF" x="73.406" y="24.892" smashed="yes" rot="R180">
+<attribute name="NAME" x="73.2028" y="23.622" size="1.27" layer="25" rot="R270"/>
+<attribute name="POPULARITY" value="73" x="-71.374" y="143.002" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-71.374" y="143.002" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="74.041" y="26.797" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="CLDOIN" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="63.5" y="36.576" smashed="yes">
 <attribute name="NAME" x="60.9092" y="34.1122" size="1.27" layer="25"/>
@@ -2974,17 +2575,17 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="NAME" x="113.665" y="28.4988" size="1.27" layer="25"/>
 <attribute name="VALUE" x="125.476" y="28.448" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="RCOMH" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49" x="69.4944" y="31.3944" smashed="yes" rot="R180">
-<attribute name="NAME" x="70.0278" y="32.6136" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="70.1294" y="33.2994" size="1.27" layer="27" rot="R180"/>
+<element name="RCOMH" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49" x="69.85" y="31.496" smashed="yes" rot="R180">
+<attribute name="NAME" x="70.3834" y="32.7152" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="70.485" y="33.401" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="RCOMH-1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49" x="91.059" y="16.002" smashed="yes" rot="R90">
 <attribute name="NAME" x="93.5228" y="12.6746" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="92.964" y="15.367" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RCOMH1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49" x="69.5452" y="25.146" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.8754" y="23.7236" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="70.1802" y="27.051" size="1.27" layer="27" rot="R180"/>
+<element name="RCOMH1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49" x="69.85" y="25.146" smashed="yes" rot="R180">
+<attribute name="NAME" x="70.1802" y="23.7236" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="70.485" y="27.051" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="RCOMH1-1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49" x="84.709" y="15.875" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.6864" y="20.1422" size="1.27" layer="25" rot="R270"/>
@@ -3002,9 +2603,9 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="NAME" x="65.0748" y="22.3774" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="64.389" y="22.987" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="RCOML1-1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49" x="77.3176" y="24.892" smashed="yes">
-<attribute name="NAME" x="77.089" y="23.495" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="76.6826" y="22.987" size="1.27" layer="27"/>
+<element name="RCOML1-1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49" x="77.216" y="24.892" smashed="yes">
+<attribute name="NAME" x="76.9874" y="23.495" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="76.581" y="22.987" size="1.27" layer="27"/>
 </element>
 <element name="RCOMML" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k" x="60.198" y="21.209" smashed="yes">
 <attribute name="NAME" x="61.5696" y="13.97" size="1.27" layer="25" rot="R90"/>
@@ -3468,78 +3069,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="POPULARITY" value="73" x="52.07" y="12.954" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="52.07" y="12.954" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.435" y="11.049" size="1.27" layer="27"/>
-</element>
-<element name="C1" library="C1206C105K5RACTU" package="CAPC3216X120N" value="C1206C105K5RACTU" x="91.1352" y="10.8204" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="91.1352" y="10.8204" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=eda" x="91.1352" y="10.8204" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      1206 C 1uF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | KEMET C1206C105K5RACTU                                              " x="91.1352" y="10.8204" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="KEMET" x="91.1352" y="10.8204" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="C1206C105K5RACTU" x="91.1352" y="10.8204" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="92.3852" y="13.1304" size="0.5" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="1206-2 KEMET" x="91.1352" y="10.8204" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="91.1352" y="10.8204" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=snap" x="91.1352" y="10.8204" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="89.8852" y="13.1304" size="0.5" layer="27" rot="R270" align="top-left"/>
-</element>
-<element name="C2" library="C1206C105K5RACTU" package="CAPC3216X120N" value="C1206C105K5RACTU" x="84.6836" y="10.4648" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="In Stock" x="84.6836" y="10.4648" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=eda" x="84.6836" y="10.4648" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      1206 C 1uF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | KEMET C1206C105K5RACTU                                              " x="84.6836" y="10.4648" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="KEMET" x="84.6836" y="10.4648" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="C1206C105K5RACTU" x="84.6836" y="10.4648" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="85.9336" y="12.7748" size="0.5" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="1206-2 KEMET" x="84.6836" y="10.4648" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="84.6836" y="10.4648" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=snap" x="84.6836" y="10.4648" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="83.4336" y="12.7748" size="0.5" layer="27" rot="R270" align="top-left"/>
-</element>
-<element name="C3" library="C1206C105K5RACTU" package="CAPC3216X120N" value="C1206C105K5RACTU" x="73.3552" y="31.3436" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="73.3552" y="31.3436" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=eda" x="73.3552" y="31.3436" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      1206 C 1uF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | KEMET C1206C105K5RACTU                                              " x="73.3552" y="31.3436" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="KEMET" x="73.3552" y="31.3436" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="C1206C105K5RACTU" x="73.3552" y="31.3436" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="71.0452" y="32.5936" size="0.5" layer="25"/>
-<attribute name="PACKAGE" value="1206-2 KEMET" x="73.3552" y="31.3436" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="73.3552" y="31.3436" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=snap" x="73.3552" y="31.3436" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="71.0452" y="30.0936" size="0.5" layer="27" align="top-left"/>
-</element>
-<element name="C4" library="C1206C105K5RACTU" package="CAPC3216X120N" value="C1206C105K5RACTU" x="73.406" y="25.0444" smashed="yes">
-<attribute name="AVAILABILITY" value="In Stock" x="73.406" y="25.0444" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=eda" x="73.406" y="25.0444" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      1206 C 1uF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | KEMET C1206C105K5RACTU                                              " x="73.406" y="25.0444" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="KEMET" x="73.406" y="25.0444" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="C1206C105K5RACTU" x="73.406" y="25.0444" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="71.096" y="26.2944" size="0.5" layer="25"/>
-<attribute name="PACKAGE" value="1206-2 KEMET" x="73.406" y="25.0444" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="73.406" y="25.0444" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=snap" x="73.406" y="25.0444" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="71.096" y="23.7944" size="0.5" layer="27" align="top-left"/>
-</element>
-<element name="C5" library="C1206C105K5RACTU" package="CAPC3216X120N" value="C1206C105K5RACTU" x="67.564" y="19.5072" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="In Stock" x="67.564" y="19.5072" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=eda" x="67.564" y="19.5072" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      1206 C 1uF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | KEMET C1206C105K5RACTU                                              " x="67.564" y="19.5072" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="KEMET" x="67.564" y="19.5072" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="C1206C105K5RACTU" x="67.564" y="19.5072" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="66.314" y="17.1972" size="0.5" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="1206-2 KEMET" x="67.564" y="19.5072" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="67.564" y="19.5072" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=snap" x="67.564" y="19.5072" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="68.814" y="17.1972" size="0.5" layer="27" rot="R90" align="top-left"/>
-</element>
-<element name="C6" library="C1206C105K5RACTU" package="CAPC3216X120N" value="C1206C105K5RACTU" x="65.4304" y="15.0876" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="In Stock" x="65.4304" y="15.0876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=eda" x="65.4304" y="15.0876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      1206 C 1uF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | KEMET C1206C105K5RACTU                                              " x="65.4304" y="15.0876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="KEMET" x="65.4304" y="15.0876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="C1206C105K5RACTU" x="65.4304" y="15.0876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="67.7404" y="13.8376" size="0.5" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="1206-2 KEMET" x="65.4304" y="15.0876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="65.4304" y="15.0876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/C1206C105K5RACTU/KEMET/view-part/?ref=snap" x="65.4304" y="15.0876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="67.7404" y="16.3376" size="0.5" layer="27" rot="R180" align="top-left"/>
 </element>
 </elements>
 <signals>
@@ -4452,9 +3981,9 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <contactref element="RTERMH" pad="1"/>
 <contactref element="CBPH1" pad="1"/>
 <wire x1="66.04" y1="27.266" x2="68.16" y2="25.146" width="0.1524" layer="1"/>
-<wire x1="68.16" y1="25.146" x2="68.6952" y2="25.146" width="0.1524" layer="1"/>
-<wire x1="68.6952" y1="25.146" x2="68.6952" y2="26.1892" width="0.1524" layer="1"/>
-<wire x1="68.6952" y1="26.1892" x2="69.85" y2="27.344" width="0.1524" layer="1"/>
+<wire x1="68.16" y1="25.146" x2="69" y2="25.146" width="0.1524" layer="1"/>
+<wire x1="69" y1="25.146" x2="69" y2="26.494" width="0.1524" layer="1"/>
+<wire x1="69" y1="26.494" x2="69.85" y2="27.344" width="0.1524" layer="1"/>
 <wire x1="50.188" y1="28.436" x2="57.41865" y2="28.436" width="0.1524" layer="1"/>
 <wire x1="65.6708" y1="27.6352" x2="66.04" y2="27.266" width="0.1524" layer="1"/>
 <wire x1="57.41865" y1="28.436" x2="58.21945" y2="27.6352" width="0.1524" layer="1"/>
@@ -4465,10 +3994,10 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <contactref element="RCOMH" pad="2"/>
 <contactref element="RTERMH" pad="2"/>
 <contactref element="CBPH" pad="1"/>
-<wire x1="66.04" y1="29.376" x2="68.0584" y2="31.3944" width="0.1524" layer="1"/>
-<wire x1="68.0584" y1="31.3944" x2="68.6444" y2="31.3944" width="0.1524" layer="1"/>
-<wire x1="68.6444" y1="31.3944" x2="68.6444" y2="30.2496" width="0.1524" layer="1"/>
-<wire x1="68.6444" y1="30.2496" x2="69.85" y2="29.044" width="0.1524" layer="1"/>
+<wire x1="66.04" y1="29.376" x2="68.16" y2="31.496" width="0.1524" layer="1"/>
+<wire x1="68.16" y1="31.496" x2="69" y2="31.496" width="0.1524" layer="1"/>
+<wire x1="69" y1="31.496" x2="69" y2="29.894" width="0.1524" layer="1"/>
+<wire x1="69" y1="29.894" x2="69.85" y2="29.044" width="0.1524" layer="1"/>
 <wire x1="66.04" y1="29.376" x2="65.6" y2="28.936" width="0.1524" layer="1"/>
 <wire x1="65.6" y1="28.936" x2="50.188" y2="28.936" width="0.1524" layer="1"/>
 </signal>
@@ -4706,50 +4235,46 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="40.71495" y1="34.759" x2="41.177" y2="34.29695" width="0.254" layer="1"/>
 </signal>
 <signal name="N$46">
+<contactref element="CISOL" pad="2"/>
 <contactref element="RCOMH" pad="1"/>
-<contactref element="C3" pad="1"/>
-<wire x1="70.3444" y1="31.3944" x2="71.8294" y2="31.3944" width="0.1524" layer="1"/>
-<wire x1="71.8294" y1="31.3944" x2="71.8802" y2="31.3436" width="0.1524" layer="1"/>
+<wire x1="70.7" y1="31.496" x2="72.302" y2="31.496" width="0.1524" layer="1"/>
+<wire x1="72.302" y1="31.496" x2="72.556" y2="31.242" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$47">
+<contactref element="CISOL1" pad="2"/>
 <contactref element="RCOMH1" pad="1"/>
-<contactref element="C4" pad="1"/>
-<wire x1="70.3952" y1="25.146" x2="71.8294" y2="25.146" width="0.1524" layer="1"/>
-<wire x1="71.8294" y1="25.146" x2="71.931" y2="25.0444" width="0.1524" layer="1"/>
+<wire x1="70.7" y1="25.146" x2="72.302" y2="25.146" width="0.1524" layer="1"/>
+<wire x1="72.302" y1="25.146" x2="72.556" y2="24.892" width="0.1524" layer="1"/>
 </signal>
 <signal name="ISO_COMN">
+<contactref element="CISOL1" pad="1"/>
 <contactref element="RCOML1-1" pad="1"/>
-<contactref element="C4" pad="2"/>
-<wire x1="74.881" y1="25.0444" x2="76.3152" y2="25.0444" width="0.1524" layer="1"/>
-<wire x1="76.3152" y1="25.0444" x2="76.4676" y2="24.892" width="0.1524" layer="1"/>
+<wire x1="74.256" y1="24.892" x2="76.366" y2="24.892" width="0.1524" layer="1"/>
 </signal>
 <signal name="ISO_COMP">
+<contactref element="CISOL" pad="1"/>
 <contactref element="RCOML-1" pad="1"/>
-<contactref element="C3" pad="2"/>
-<wire x1="74.8302" y1="31.3436" x2="76.2644" y2="31.3436" width="0.1524" layer="1"/>
-<wire x1="76.2644" y1="31.3436" x2="76.366" y2="31.242" width="0.1524" layer="1"/>
+<wire x1="74.256" y1="31.242" x2="76.366" y2="31.242" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$50">
+<contactref element="CCOMLN" pad="2"/>
 <contactref element="RCOML1" pad="1"/>
 <contactref element="D1" pad="1"/>
-<wire x1="64.604" y1="21.082" x2="64.61190625" y2="20.99350625" width="0.1524" layer="1"/>
-<wire x1="64.61190625" y1="20.99350625" x2="64.630178125" y2="20.789" width="0.1524" layer="1"/>
+<wire x1="67.564" y1="20.027" x2="66.802" y2="20.789" width="0.1524" layer="1"/>
+<wire x1="66.802" y1="20.789" x2="64.630178125" y2="20.789" width="0.1524" layer="1"/>
+<wire x1="64.604" y1="21.082" x2="64.630178125" y2="20.789" width="0.1524" layer="1"/>
 <wire x1="62.985" y1="18.857" x2="62.984996875" y2="19.14381875" width="0.1524" layer="1"/>
 <wire x1="62.984996875" y1="19.14381875" x2="64.630178125" y2="20.789" width="0.1524" layer="1"/>
-<contactref element="C5" pad="2"/>
-<wire x1="67.564" y1="20.9822" x2="64.6232125" y2="20.9822" width="0.1524" layer="1"/>
-<wire x1="64.6232125" y1="20.9822" x2="64.61190625" y2="20.99350625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$51">
+<contactref element="CCOMLP" pad="2"/>
 <contactref element="RCOML" pad="1"/>
 <contactref element="D1" pad="2"/>
 <wire x1="59.182" y1="17.184" x2="59.202" y2="17.184" width="0.1524" layer="1"/>
 <wire x1="59.429" y1="16.957" x2="62.985" y2="16.957" width="0.1524" layer="1"/>
 <wire x1="59.429" y1="16.957" x2="59.202" y2="17.184" width="0.1524" layer="1"/>
-<contactref element="C6" pad="2"/>
-<wire x1="62.985" y1="16.957" x2="62.985" y2="16.3628" width="0.1524" layer="1"/>
-<wire x1="63.9554" y1="15.3924" x2="63.9554" y2="15.0876" width="0.1524" layer="1"/>
-<wire x1="63.9554" y1="15.3924" x2="62.985" y2="16.3628" width="0.1524" layer="1"/>
+<wire x1="62.985" y1="16.957" x2="63.92" y2="16.022" width="0.1524" layer="1"/>
+<wire x1="63.92" y1="16.022" x2="63.92" y2="14.478" width="0.1524" layer="1"/>
 </signal>
 <signal name="COMLP">
 <contactref element="RCOML" pad="2"/>
@@ -5938,22 +5463,21 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="98.148" y1="14.12" x2="101.575" y2="10.693" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$97">
+<contactref element="CCOMHP" pad="2"/>
 <contactref element="RCOMH-1" pad="1"/>
 <contactref element="D2" pad="1"/>
 <wire x1="91.059" y1="15.152" x2="91.059" y2="12.026" width="0.1524" layer="1"/>
+<wire x1="91.059" y1="12.026" x2="91.186" y2="11.899" width="0.1524" layer="1"/>
 <wire x1="88.834" y1="15.882" x2="89.564" y2="15.152" width="0.1524" layer="1"/>
 <wire x1="91.059" y1="15.152" x2="89.564" y2="15.152" width="0.1524" layer="1"/>
-<contactref element="C1" pad="1"/>
-<wire x1="91.1352" y1="12.2954" x2="91.059" y2="12.026" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$98">
+<contactref element="CCOMHN" pad="2"/>
 <contactref element="RCOMH1-1" pad="1"/>
 <contactref element="D2" pad="2"/>
+<wire x1="84.709" y1="15.025" x2="84.709" y2="11.772" width="0.1524" layer="1"/>
 <wire x1="86.077" y1="15.025" x2="86.934" y2="15.882" width="0.1524" layer="1"/>
 <wire x1="84.709" y1="15.025" x2="86.077" y2="15.025" width="0.1524" layer="1"/>
-<contactref element="C2" pad="1"/>
-<wire x1="84.709" y1="15.025" x2="84.709" y2="11.9652" width="0.1524" layer="1"/>
-<wire x1="84.709" y1="11.9652" x2="84.6836" y2="11.9398" width="0.1524" layer="1"/>
 </signal>
 <signal name="COMLP-1">
 <contactref element="RCOML-1" pad="2"/>
@@ -5974,39 +5498,36 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <contactref element="RTERML" pad="2"/>
 <contactref element="CBPL1" pad="1"/>
 <contactref element="IC1" pad="41"/>
-<wire x1="78.1676" y1="24.892" x2="78.1676" y2="26.2654" width="0.1524" layer="1"/>
-<wire x1="78.1676" y1="26.2654" x2="77.216" y2="27.217" width="0.1524" layer="1"/>
+<wire x1="78.066" y1="24.892" x2="78.066" y2="26.367" width="0.1524" layer="1"/>
+<wire x1="78.066" y1="26.367" x2="77.216" y2="27.217" width="0.1524" layer="1"/>
 <wire x1="81.026" y1="27.012" x2="78.906" y2="24.892" width="0.1524" layer="1"/>
-<wire x1="78.906" y1="24.892" x2="78.1676" y2="24.892" width="0.1524" layer="1"/>
+<wire x1="78.906" y1="24.892" x2="78.066" y2="24.892" width="0.1524" layer="1"/>
 <wire x1="96.878" y1="27.182" x2="81.196" y2="27.182" width="0.1524" layer="1"/>
 <wire x1="81.196" y1="27.182" x2="81.026" y2="27.012" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$99">
+<contactref element="CCOMHP" pad="1"/>
 <contactref element="COMMH" pad="2"/>
 <wire x1="88.9" y1="6.1976" x2="91.186" y2="8.4836" width="0.1524" layer="1"/>
-<contactref element="C1" pad="2"/>
-<wire x1="91.186" y1="8.4836" x2="91.186" y2="9.2946" width="0.1524" layer="1"/>
-<wire x1="91.186" y1="9.2946" x2="91.1352" y2="9.3454" width="0.1524" layer="1"/>
+<wire x1="91.186" y1="8.4836" x2="91.186" y2="10.199" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$101">
+<contactref element="CCOMHN" pad="1"/>
 <contactref element="COMMH" pad="4"/>
-<contactref element="C2" pad="2"/>
-<wire x1="86.8934" y1="6.1976" x2="84.6836" y2="8.4074" width="0.1524" layer="1"/>
-<wire x1="84.6836" y1="8.4074" x2="84.6836" y2="8.9898" width="0.1524" layer="1"/>
+<wire x1="86.8934" y1="6.1976" x2="84.709" y2="8.382" width="0.1524" layer="1"/>
+<wire x1="84.709" y1="8.382" x2="84.709" y2="10.072" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$103">
+<contactref element="CCOMLN" pad="1"/>
 <contactref element="COMML" pad="2"/>
-<contactref element="C5" pad="1"/>
-<wire x1="67.564" y1="18.0322" x2="67.910275" y2="18.0322" width="0.1524" layer="1"/>
-<wire x1="71.489875" y1="14.4526" x2="67.910275" y2="18.0322" width="0.1524" layer="1"/>
-<wire x1="71.489875" y1="14.4526" x2="71.882" y2="14.4526" width="0.1524" layer="1"/>
+<wire x1="71.882" y1="14.4526" x2="68.0076" y2="18.327" width="0.1524" layer="1"/>
+<wire x1="68.0076" y1="18.327" x2="67.564" y2="18.327" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$104">
+<contactref element="CCOMLP" pad="1"/>
 <contactref element="COMML" pad="4"/>
+<wire x1="65.62" y1="14.478" x2="69.85" y2="14.478" width="0.1524" layer="1"/>
 <wire x1="69.85" y1="14.478" x2="69.8754" y2="14.4526" width="0.1524" layer="1"/>
-<contactref element="C6" pad="1"/>
-<wire x1="66.9054" y1="15.0876" x2="67.5404" y2="14.4526" width="0.1524" layer="1"/>
-<wire x1="67.5404" y1="14.4526" x2="69.8754" y2="14.4526" width="0.1524" layer="1"/>
 </signal>
 <signal name="SRN-IN">
 <contactref element="RCS2" pad="2"/>
