@@ -311,6 +311,8 @@
 <vertex x="49.4538" y="1.7526"/>
 </polygon>
 <circle x="112.171340625" y="19.756534375" radius="0.254" width="0.508" layer="42"/>
+<dimension x1="20.8788" y1="4.7244" x2="0.0762" y2="4.7244" x3="10.4775" y3="-2.8956" textsize="1.778" layer="1"/>
+<dimension x1="120.396" y1="46.7106" x2="139.7508" y2="46.7868" x3="130.040040625" y3="55.22176875" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="NFR23_v1.3">
@@ -2310,11 +2312,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="SPICEPREFIX" value="C" x="90.25039375" y="-97.54254375" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="55.32539375" y="38.98245625" size="1.27" layer="27"/>
 </element>
-<element name="CNPN-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.22uF" x="101.109434375" y="3.280734375" smashed="yes" rot="R90">
-<attribute name="NAME" x="99.915634375" y="3.788734375" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="73" x="219.219434375" y="41.380734375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="219.219434375" y="41.380734375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="103.014434375" y="2.645734375" size="1.27" layer="27" rot="R90"/>
+<element name="CNPN-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.22uF" x="101.947634375" y="3.204534375" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.753834375" y="3.712534375" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="73" x="220.057634375" y="41.304534375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="220.057634375" y="41.304534375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="103.852634375" y="2.569534375" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="COMMH" library="BMS24" package="CON4_2X2_UF_DF11_HIR" value="DF11-4DP-2DSA(24)" x="88.764378125" y="2.83298125" smashed="yes">
 <attribute name="COPYRIGHT" value="Copyright (C) 2023 Ultra Librarian. All rights reserved." x="116.704378125" y="-74.63701875" size="1.778" layer="27" display="off"/>
@@ -2707,10 +2709,10 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="POPULARITY" value="0" x="86.44039375" y="-53.09254375" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.63529375" y="37.81255625" size="1.27" layer="27"/>
 </element>
-<element name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" package="SOT89-BCE" package3d_urn="urn:adsk.eagle:package:29925/3" value="PBHV8115X, 115" x="99.369740625" y="4.211734375" smashed="yes" rot="R180">
-<attribute name="NAME" x="99.300009375" y="1.951815625" size="1.27" layer="25" rot="R180"/>
-<attribute name="POPULARITY" value="0" x="58.729740625" y="99.461734375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="101.774840625" y="8.556634375" size="1.27" layer="27" rot="R180"/>
+<element name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" package="SOT89-BCE" package3d_urn="urn:adsk.eagle:package:29925/3" value="PBHV8115X, 115" x="98.836340625" y="4.211734375" smashed="yes" rot="R180">
+<attribute name="NAME" x="98.766609375" y="1.951815625" size="1.27" layer="25" rot="R180"/>
+<attribute name="POPULARITY" value="0" x="58.196340625" y="99.461734375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="101.241440625" y="8.556634375" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="TP_NFAUL" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1" value="TPB2,54" x="15.95539375" y="31.10845625" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.15199375" y="32.04825625" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -3322,9 +3324,9 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="NAME" x="57.4536" y="49.8648" size="0.5" layer="25" rot="R270"/>
 <attribute name="VALUE" x="53.4936" y="49.8648" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="R4" library="RC2512JK-07560RL" package="RESC6331X65N" value="RC2512JK-07560RL" x="104.2416" y="6.1722" smashed="yes" rot="R270">
-<attribute name="NAME" x="106.2216" y="10.0122" size="0.5" layer="25" rot="R270"/>
-<attribute name="VALUE" x="102.2616" y="10.0122" size="0.5" layer="27" rot="R270" align="top-left"/>
+<element name="R4" library="RC2512JK-07560RL" package="RESC6331X65N" value="RC2512JK-07560RL" x="104.9274" y="6.1722" smashed="yes" rot="R270">
+<attribute name="NAME" x="106.9074" y="10.0122" size="0.5" layer="25" rot="R270"/>
+<attribute name="VALUE" x="102.9474" y="10.0122" size="0.5" layer="27" rot="R270" align="top-left"/>
 </element>
 <element name="J1" library="TFM-120-02-L-D-A" package="TFM-120-ZZ-XXX-D-A" value="TFM-120-02-L-D-A" x="34.3662" y="4.7244" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="High-Reliability Tiger Eye&amp;trade; Terminal Strips, .050&amp;quot; Pitch" x="34.3662" y="4.7244" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5440,15 +5442,15 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <signal name="N$92">
 <contactref element="T2" pad="C"/>
 <contactref element="CNPN-1" pad="2"/>
-<wire x1="99.369740625" y1="3.754534375" x2="99.369740625" y2="5.938734375" width="0.6096" layer="1"/>
-<wire x1="101.109434375" y1="4.130734375" x2="101.18329375" y2="4.130734375" width="0.6096" layer="1"/>
-<wire x1="101.109434375" y1="4.130734375" x2="100.738340625" y2="4.130734375" width="0.6096" layer="1"/>
-<wire x1="100.738340625" y1="4.130734375" x2="99.891340625" y2="3.283734375" width="0.6096" layer="1"/>
-<wire x1="99.891340625" y1="3.283734375" x2="99.840540625" y2="3.283734375" width="0.6096" layer="1"/>
-<wire x1="99.840540625" y1="3.283734375" x2="99.369740625" y2="3.754534375" width="0.6096" layer="1"/>
+<wire x1="98.836340625" y1="4.287934375" x2="98.836340625" y2="5.938734375" width="0.6096" layer="1"/>
+<wire x1="101.947634375" y1="4.054534375" x2="101.947634375" y2="4.0316" width="0.6096" layer="1"/>
+<wire x1="101.947634375" y1="4.054534375" x2="101.043140625" y2="4.054534375" width="0.6096" layer="1"/>
+<wire x1="101.043140625" y1="4.054534375" x2="100.272340625" y2="3.283734375" width="0.6096" layer="1"/>
+<wire x1="100.272340625" y1="3.283734375" x2="99.840540625" y2="3.283734375" width="0.6096" layer="1"/>
+<wire x1="99.840540625" y1="3.283734375" x2="98.836340625" y2="4.287934375" width="0.6096" layer="1"/>
 <contactref element="R4" pad="2"/>
-<wire x1="102.196828125" y1="3.1172" x2="104.2416" y2="3.1172" width="0.6096" layer="1"/>
-<wire x1="101.18329375" y1="4.130734375" x2="102.196828125" y2="3.1172" width="0.6096" layer="1"/>
+<wire x1="104.013" y1="4.0316" x2="104.9274" y2="3.1172" width="0.6096" layer="1"/>
+<wire x1="104.013" y1="4.0316" x2="101.947634375" y2="4.0316" width="0.6096" layer="1"/>
 </signal>
 <signal name="GNDH">
 <contactref element="CNPN-1" pad="1"/>
@@ -5559,8 +5561,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <vertex x="95.102540625" y="2.890934375"/>
 <vertex x="97.185340625" y="0.808134375"/>
 <vertex x="103.738540625" y="0.808134375"/>
-<vertex x="106.532540625" y="3.602134375"/>
-<vertex x="106.532540625" y="9.240934375"/>
+<vertex x="106.380140625" y="3.449734375"/>
+<vertex x="106.380140625" y="9.393334375"/>
 <vertex x="105.364140625" y="10.409334375"/>
 <vertex x="100.944540625" y="10.409334375"/>
 <vertex x="98.912540625" y="12.441334375"/>
@@ -5584,8 +5586,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <vertex x="101.452540625" y="16.860934375"/>
 </polygon>
 <polygon width="0.1524" layer="2">
-<vertex x="104.398940625" y="11.374534375"/>
-<vertex x="106.532540625" y="9.240934375"/>
+<vertex x="104.475140625" y="11.374534375"/>
+<vertex x="106.532540625" y="9.317134375"/>
 <vertex x="106.532540625" y="0.757334375"/>
 <vertex x="105.668940625" y="-0.106265625"/>
 <vertex x="98.099740625" y="-0.106265625"/>
@@ -5726,8 +5728,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <via x="134.015340625" y="26.360534375" extent="1-16" drill="0.35"/>
 <via x="134.116940625" y="30.170534375" extent="1-16" drill="0.35"/>
 <via x="136.098140625" y="38.552534375" extent="1-16" drill="0.35"/>
-<wire x1="103.179740625" y1="1.468534375" x2="102.071634375" y2="1.468534375" width="0.3048" layer="1"/>
-<wire x1="102.071634375" y1="1.468534375" x2="101.109434375" y2="2.430734375" width="0.3048" layer="1"/>
+<wire x1="103.179740625" y1="1.468534375" x2="102.833634375" y2="1.468534375" width="0.3048" layer="1"/>
+<wire x1="102.833634375" y1="1.468534375" x2="101.947634375" y2="2.354534375" width="0.3048" layer="1"/>
 <via x="136.377540625" y="17.114934375" extent="1-16" drill="0.35"/>
 <via x="136.352140625" y="24.277734375" extent="1-16" drill="0.35"/>
 <via x="136.301340625" y="29.916534375" extent="1-16" drill="0.35"/>
@@ -5885,8 +5887,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="111.220340625" y1="45.287484375" x2="111.2012" y2="45.2242" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BAT-1">
-<via x="106.532540625" y="9.240934375" extent="1-16" drill="0.35"/>
-<wire x1="106.532540625" y1="9.240934375" x2="109.478940625" y2="9.240934375" width="0.6096" layer="15"/>
+<via x="107.218340625" y="9.240934375" extent="1-16" drill="0.35"/>
+<wire x1="109.478940625" y1="9.240934375" x2="107.218340625" y2="9.240934375" width="0.6096" layer="15"/>
 <wire x1="109.478940625" y1="9.240934375" x2="115.803540625" y2="15.565534375" width="0.6096" layer="15"/>
 <contactref element="RBAT-1" pad="1"/>
 <wire x1="130.586340625" y1="43.84954375" x2="130.59676875" y2="43.839115625" width="0.6096" layer="1"/>
@@ -5910,13 +5912,13 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="130.60198125" y1="43.876053125" x2="130.60198125" y2="43.72765625" width="0.508" layer="1"/>
 <wire x1="125.901728125" y1="49.64310625" x2="119.13391875" y2="49.64310625" width="0.508" layer="1"/>
 <contactref element="R4" pad="1"/>
-<wire x1="104.255334375" y1="9.240934375" x2="104.2416" y2="9.2272" width="0.6096" layer="1"/>
-<wire x1="106.532540625" y1="9.240934375" x2="104.255334375" y2="9.240934375" width="0.6096" layer="1"/>
+<wire x1="104.941134375" y1="9.240934375" x2="104.9274" y2="9.2272" width="0.6096" layer="1"/>
 <contactref element="J2" pad="40"/>
 <wire x1="119.13391875" y1="49.64310625" x2="118.8212" y2="49.3303875" width="0.508" layer="1"/>
 <wire x1="118.8212" y1="49.3303875" x2="118.8212" y2="48.6542" width="0.508" layer="1"/>
 <wire x1="125.749328125" y1="48.72870625" x2="118.89570625" y2="48.72870625" width="0.508" layer="1"/>
 <wire x1="118.89570625" y1="48.72870625" x2="118.8212" y2="48.6542" width="0.508" layer="1"/>
+<wire x1="107.218340625" y1="9.240934375" x2="104.941134375" y2="9.240934375" width="0.508" layer="1"/>
 </signal>
 <signal name="CB1-IN-1">
 <contactref element="RCB1-1" pad="1"/>
@@ -6015,17 +6017,17 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="95.813740625" y1="21.940934375" x2="95.813740625" y2="10.217934375" width="0.3048" layer="1"/>
 <wire x1="95.813740625" y1="22.180084375" x2="95.813740625" y2="21.940934375" width="0.254" layer="1"/>
 <wire x1="95.813740625" y1="22.180084375" x2="96.134590625" y2="22.500934375" width="0.254" layer="1"/>
-<wire x1="98.060740625" y1="7.970934375" x2="97.870740625" y2="7.780934375" width="0.3048" layer="1"/>
+<wire x1="98.060740625" y1="7.970934375" x2="97.337340625" y2="7.247534375" width="0.3048" layer="1"/>
 <wire x1="96.134590625" y1="22.500934375" x2="96.984540625" y2="22.500934375" width="0.254" layer="1"/>
-<wire x1="97.870740625" y1="6.192734375" x2="97.870740625" y2="7.780934375" width="0.3048" layer="1"/>
+<wire x1="97.337340625" y1="6.192734375" x2="97.337340625" y2="7.247534375" width="0.3048" layer="1"/>
 </signal>
 <signal name="NPNB-1">
 <contactref element="T2" pad="B"/>
 <contactref element="IC1" pad="48"/>
 <wire x1="96.984540625" y1="21.181334375" x2="96.984540625" y2="22.000934375" width="0.254" layer="1"/>
-<wire x1="100.868740625" y1="6.192734375" x2="100.868740625" y2="9.011934375" width="0.3048" layer="1"/>
+<wire x1="100.335340625" y1="6.192734375" x2="100.335340625" y2="9.545334375" width="0.3048" layer="1"/>
 <wire x1="96.984540625" y1="15.537734375" x2="96.984540625" y2="21.181334375" width="0.3048" layer="1"/>
-<wire x1="100.868740625" y1="9.011934375" x2="97.947340625" y2="11.933334375" width="0.3048" layer="1"/>
+<wire x1="100.335340625" y1="9.545334375" x2="97.947340625" y2="11.933334375" width="0.3048" layer="1"/>
 <wire x1="97.947340625" y1="11.933334375" x2="97.947340625" y2="14.574934375" width="0.3048" layer="1"/>
 <wire x1="97.947340625" y1="14.574934375" x2="96.984540625" y2="15.537734375" width="0.3048" layer="1"/>
 </signal>

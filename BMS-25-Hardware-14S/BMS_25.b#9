@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.000123031496" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="3" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="3" visible="yes" active="yes"/>
@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="61" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="63" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -269,7 +269,7 @@
 <circle x="87.228540625" y="35.860134375" radius="0.254" width="0.508" layer="42"/>
 <circle x="61.64999375" y="5.35285625" radius="0.508" width="1.27" layer="42"/>
 <circle x="61.59919375" y="7.99445625" radius="0.508" width="1.27" layer="42"/>
-<text x="62.69139375" y="44.39265625" size="1.905" layer="25">BMS25 Daughterboard</text>
+<text x="60.008053125" y="49.43093125" size="1.905" layer="25">BMS25 Daughterboard</text>
 <text x="66.45059375" y="42.97025625" size="1.27" layer="25">Drake Vogelpohl</text>
 <text x="66.8782" y="39.6494" size="1.27" layer="25">July 2024</text>
 <dimension x1="0" y1="51.435" x2="139.7" y2="51.435" x3="69.85" y3="59.055" textsize="1.778" layer="1"/>
@@ -287,7 +287,6 @@
 <circle x="12.78039375" y="43.04645625" radius="0.254" width="0.508" layer="42"/>
 <circle x="12.78039375" y="48.76145625" radius="0.254" width="0.508" layer="42"/>
 <circle x="26.11539375" y="43.04645625" radius="0.254" width="0.508" layer="42"/>
-<circle x="33.73539375" y="44.95145625" radius="0.254" width="0.508" layer="42"/>
 <circle x="52.225128125" y="50.273321875" radius="0.254" width="0.508" layer="42"/>
 <circle x="48.87379375" y="7.91825625" radius="0.508" width="1.27" layer="42"/>
 <circle x="118.851540625" y="4.668934375" radius="0.254" width="0.508" layer="42"/>
@@ -304,6 +303,14 @@
 <circle x="128.935340625" y="29.865734375" radius="0.254" width="0.508" layer="42"/>
 <circle x="131.221340625" y="32.151734375" radius="0.254" width="0.508" layer="42"/>
 <circle x="130.306940625" y="24.582534375" radius="0.254" width="0.508" layer="42"/>
+<polygon width="0.3048" layer="42">
+<vertex x="49.4538" y="2.8194"/>
+<vertex x="50.5206" y="2.7432"/>
+<vertex x="50.5206" y="1.6764"/>
+<vertex x="49.53" y="1.6764"/>
+<vertex x="49.4538" y="1.7526"/>
+</polygon>
+<circle x="112.171340625" y="19.756534375" radius="0.254" width="0.508" layer="42"/>
 </plain>
 <libraries>
 <library name="NFR23_v1.3">
@@ -2082,37 +2089,37 @@ wave soldering</description>
 <attribute name="VALUE" x="79.227540625" y="25.115934375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CCB1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="50.37239375" y="22.59945625" smashed="yes" rot="MR180">
-<attribute name="NAME" x="51.26139375" y="23.74245625" size="0.508" layer="26" rot="MR0"/>
+<attribute name="NAME" x="51.03896875" y="23.241290625" size="0.508" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="73" x="146.89239375" y="155.94945625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="146.89239375" y="155.94945625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="49.73739375" y="24.50445625" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="CCB1-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="95.915340625" y="32.456534375" smashed="yes" rot="MR0">
-<attribute name="NAME" x="95.026340625" y="31.440534375" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="94.84325625" y="31.87140625" size="0.508" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="73" x="31.145340625" y="-85.653465625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="31.145340625" y="-85.653465625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="96.550340625" y="30.551534375" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="CCB15" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="36.12299375" y="32.09905625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="37.18979375" y="31.15925625" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="36.771640625" y="31.416734375" size="0.508" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="73" x="169.47299375" y="-33.94094375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="169.47299375" y="-33.94094375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="38.02799375" y="32.73405625" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="CCB15-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="111.536340625" y="22.169534375" smashed="yes" rot="MR180">
-<attribute name="NAME" x="111.790340625" y="19.959734375" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="111.870421875" y="19.799353125" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="73" x="220.248340625" y="135.199534375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="220.248340625" y="135.199534375" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="110.393340625" y="24.074534375" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="CCB2" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="47.70539375" y="23.86945625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="48.77219375" y="23.97105625" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="48.38295" y="23.135784375" size="0.508" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="73" x="-85.64460625" y="128.00945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-85.64460625" y="128.00945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="45.80039375" y="23.23445625" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="CCB2-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="98.455340625" y="29.662534375" smashed="yes" rot="MR0">
-<attribute name="NAME" x="97.312340625" y="28.544934375" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="97.29683125" y="29.02585625" size="0.508" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="73" x="24.795340625" y="-88.447465625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="24.795340625" y="-88.447465625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="99.090340625" y="27.757534375" size="1.27" layer="28" rot="MR0"/>
@@ -2124,13 +2131,13 @@ wave soldering</description>
 <attribute name="VALUE" x="46.84179375" y="21.27865625" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="CCB3-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="99.979340625" y="31.694534375" smashed="yes" rot="MR0">
-<attribute name="NAME" x="99.877740625" y="30.576934375" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="98.63696875" y="31.1199125" size="0.508" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="73" x="17.429340625" y="-86.415465625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="17.429340625" y="-86.415465625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="100.614340625" y="29.789534375" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="CCB4" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="45.52099375" y="22.62485625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="45.41939375" y="24.30125625" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="44.422259375" y="21.82304375" size="0.508" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="73" x="-87.82900625" y="142.00485625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-87.82900625" y="142.00485625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="43.61599375" y="21.98985625" size="1.27" layer="28" rot="MR90"/>
@@ -2148,19 +2155,19 @@ wave soldering</description>
 <attribute name="VALUE" x="43.76839375" y="21.96445625" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="CCB5-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="103.230540625" y="31.694534375" smashed="yes" rot="MR0">
-<attribute name="NAME" x="102.671740625" y="30.627734375" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="101.84973125" y="31.10865625" size="0.508" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="73" x="2.900540625" y="-86.415465625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="2.900540625" y="-86.415465625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="103.865540625" y="29.789534375" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="CCB6" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="42.98099375" y="22.14225625" smashed="yes" rot="MR180">
-<attribute name="NAME" x="43.81919375" y="23.23445625" size="0.508" layer="26" rot="MR0"/>
+<attribute name="NAME" x="43.482821875" y="22.824740625" size="0.508" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="73" x="177.60099375" y="155.49225625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="177.60099375" y="155.49225625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="42.34599375" y="24.04725625" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="CCB6-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="105.770540625" y="33.828134375" smashed="yes" rot="MR90">
-<attribute name="NAME" x="106.100740625" y="32.177134375" size="0.508" layer="26" rot="MR270"/>
+<attribute name="NAME" x="106.824390625" y="34.590978125" size="0.508" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="73" x="-12.339459375" y="143.048134375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-12.339459375" y="143.048134375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="103.865540625" y="33.193134375" size="1.27" layer="28" rot="MR90"/>
@@ -2172,31 +2179,31 @@ wave soldering</description>
 <attribute name="VALUE" x="39.83139375" y="20.89765625" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="CCB7-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="108.310540625" y="34.132934375" smashed="yes" rot="MR0">
-<attribute name="NAME" x="107.269140625" y="33.040734375" size="0.508" layer="26" rot="MR180"/>
+<attribute name="NAME" x="107.32274375" y="33.57714375" size="0.508" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="73" x="-9.799459375" y="-83.977065625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-9.799459375" y="-83.977065625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="108.945540625" y="32.227934375" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="CCB8" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="39.95839375" y="21.83745625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="41.02519375" y="21.71045625" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="39.80185625" y="22.824153125" size="0.508" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="73" x="178.38839375" y="2.78745625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="178.38839375" y="2.78745625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="41.86339375" y="21.20245625" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="CCB8-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="109.072540625" y="31.542134375" smashed="yes" rot="MR0">
-<attribute name="NAME" x="108.691540625" y="30.475334375" size="0.508" layer="26" rot="MR270"/>
+<attribute name="NAME" x="107.565859375" y="32.21866875" size="0.508" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="73" x="-17.927459375" y="-86.567865625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-17.927459375" y="-86.567865625" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="109.707540625" y="29.637134375" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="CCB9" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="36.96119375" y="23.86945625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="38.02799375" y="23.08205625" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="37.641959375" y="23.0434125" size="0.508" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="73" x="175.39119375" y="-2.80054375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="175.39119375" y="-2.80054375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="38.86619375" y="24.50445625" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="CCB9-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="111.612540625" y="31.389734375" smashed="yes" rot="MR90">
-<attribute name="NAME" x="110.977540625" y="27.478134375" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="112.242728125" y="30.65368125" size="0.508" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="73" x="-6.497459375" y="167.279734375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-6.497459375" y="167.279734375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="109.707540625" y="30.754734375" size="1.27" layer="28" rot="MR90"/>
@@ -2354,7 +2361,7 @@ wave soldering</description>
 <attribute name="VALUE" x="47.07039375" y="47.61845625" size="1.27" layer="27"/>
 </element>
 <element name="CTSREF-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="108.183540625" y="5.684934375" smashed="yes" rot="R270">
-<attribute name="NAME" x="107.142140625" y="2.560734375" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="108.643509375" y="7.405315625" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="73" x="0.233540625" y="-15.905065625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="0.233540625" y="-15.905065625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="102.976540625" y="1.087534375" size="1.27" layer="27" rot="R270"/>
@@ -2512,7 +2519,7 @@ wave soldering</description>
 <attribute name="VALUE" x="32.71939375" y="31.51485625" size="1.27" layer="27"/>
 </element>
 <element name="RBAT-1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="30" x="113.517540625" y="21.813934375" smashed="yes" rot="R180">
-<attribute name="NAME" x="112.628540625" y="22.626734375" size="1.27" layer="25"/>
+<attribute name="NAME" x="113.03056875" y="22.78765625" size="1.27" layer="25"/>
 <attribute name="VALUE" x="127.360540625" y="21.178934375" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="RCOMH" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="49" x="69.9008" y="31.242" smashed="yes" rot="R180">
@@ -2584,7 +2591,7 @@ wave soldering</description>
 <attribute name="VALUE" x="21.28939375" y="39.23645625" size="1.27" layer="27"/>
 </element>
 <element name="RTHRM1-1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="127.868540625" y="22.829934375" smashed="yes" rot="R180">
-<attribute name="NAME" x="129.671940625" y="22.347334375" size="1.27" layer="25"/>
+<attribute name="NAME" x="129.338303125" y="22.45870625" size="1.27" layer="25"/>
 <attribute name="VALUE" x="128.503540625" y="24.734934375" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="RTHRM2" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="21.92439375" y="43.17345625" smashed="yes">
@@ -2592,7 +2599,7 @@ wave soldering</description>
 <attribute name="VALUE" x="21.28939375" y="41.26845625" size="1.27" layer="27"/>
 </element>
 <element name="RTHRM2-1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="127.868540625" y="20.797934375" smashed="yes" rot="R180">
-<attribute name="NAME" x="129.621140625" y="20.162934375" size="1.27" layer="25"/>
+<attribute name="NAME" x="129.676746875" y="20.44135625" size="1.27" layer="25"/>
 <attribute name="VALUE" x="128.503540625" y="22.702934375" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="RTHRM3" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="21.92439375" y="47.23745625" smashed="yes">
@@ -2616,7 +2623,7 @@ wave soldering</description>
 <attribute name="VALUE" x="28.40139375" y="49.39645625" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="RTHRM5-1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="119.283340625" y="15.057534375" smashed="yes" rot="R180">
-<attribute name="NAME" x="119.740540625" y="16.175134375" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="120.512515625" y="15.627996875" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="119.918340625" y="16.962534375" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="RTHRM6" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="36.40239375" y="48.76145625" smashed="yes" rot="R270">
@@ -2624,7 +2631,7 @@ wave soldering</description>
 <attribute name="VALUE" x="34.49739375" y="49.39645625" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="RTHRM6-1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="116.692540625" y="13.025534375" smashed="yes" rot="R180">
-<attribute name="NAME" x="117.200540625" y="14.346334375" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="117.0397125" y="13.573903125" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="117.327540625" y="14.930534375" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="RTHRM7" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="38.43439375" y="48.76145625" smashed="yes" rot="R270">
@@ -2640,7 +2647,7 @@ wave soldering</description>
 <attribute name="VALUE" x="42.62539375" y="49.39645625" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="RTHRM8-1" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k" x="111.104540625" y="9.113934375" smashed="yes" rot="R180">
-<attribute name="NAME" x="111.256940625" y="10.485534375" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="111.368153125" y="10.095740625" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="111.739540625" y="11.018934375" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="RVC0" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100" x="49.5156875" y="13.35555" smashed="yes" rot="R90">
@@ -2724,7 +2731,7 @@ wave soldering</description>
 <attribute name="VALUE" x="17.22539375" y="32.50545625" size="0.0254" layer="27" rot="R180"/>
 </element>
 <element name="TP_NFAUL-1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1" value="TPB2,54" x="131.322940625" y="27.452734375" smashed="yes">
-<attribute name="NAME" x="131.449940625" y="22.626734375" size="0.508" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="131.616759375" y="28.529325" size="0.508" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="3" x="185.932940625" y="-65.257265625" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="130.052940625" y="24.277734375" size="1" layer="37"/>
 <attribute name="VALUE" x="130.052940625" y="26.055734375" size="0.0254" layer="27"/>
@@ -2737,7 +2744,7 @@ wave soldering</description>
 <attribute name="VALUE" x="28.93479375" y="38.19505625" size="1.27" layer="27" ratio="6" rot="SR180"/>
 </element>
 <element name="CCS" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="38.45979375" y="36.49325625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="41.05059375" y="38.62685625" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="40.438925" y="38.2370625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="73" x="38.45979375" y="36.49325625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="38.45979375" y="36.49325625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="40.36479375" y="37.12825625" size="1.27" layer="28" rot="MR270"/>
@@ -2751,131 +2758,131 @@ wave soldering</description>
 <attribute name="VALUE" x="35.86899375" y="34.63905625" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="GNDL_PAD" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="" x="15.90459375" y="39.21105625" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.30459375" y="38.41105625" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="14.287328125" y="39.788271875" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="15" x="10.18959375" y="34.76605625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="15.90459375" y="39.21105625" size="0.0254" layer="27" rot="R90"/>
 </element>
 <element name="GNDH_PAD" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD1,27-2,54" package3d_urn="urn:adsk.eagle:package:30839/1" value="" x="130.687940625" y="17.292734375" smashed="yes" rot="R270">
-<attribute name="NAME" x="129.523246875" y="18.308828125" size="1.27" layer="25"/>
+<attribute name="NAME" x="129.134003125" y="18.4202" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="15" x="142.752940625" y="21.737734375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="130.687940625" y="17.292734375" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="RCB0" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="52.27739375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB0" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="52.27739375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="51.33759375" y="17.39245625" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="52.27739375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="52.27739375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="49.10239375" y="10.53445625" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RCB1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="49.22939375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="49.22939375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="49.15319375" y="17.34165625" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="49.22939375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="49.22939375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="46.05439375" y="10.53445625" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RCB2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="46.18139375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="46.18139375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="45.39399375" y="17.13845625" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="46.18139375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="46.18139375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="43.00639375" y="10.53445625" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RCB3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="43.13339375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="43.13339375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="43.31119375" y="21.45645625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="0" x="43.13339375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="43.13339375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="39.95839375" y="10.53445625" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RCB4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="40.08539375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="40.08539375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="39.39959375" y="17.74805625" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="40.08539375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="40.08539375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="36.91039375" y="10.53445625" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RCB5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="37.03739375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="37.03739375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="37.51999375" y="21.50725625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="0" x="37.03739375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="37.03739375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="33.86239375" y="10.53445625" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RCB6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="33.86239375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="33.86239375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="34.39579375" y="21.60885625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="0" x="33.86239375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="33.86239375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="30.68739375" y="10.53445625" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RCB7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="30.81439375" y="13.70945625" smashed="yes" rot="MR90">
-<attribute name="NAME" x="31.55099375" y="21.60885625" size="1.27" layer="26" rot="MR270"/>
-<attribute name="POPULARITY" value="0" x="30.81439375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="30.81439375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="27.63939375" y="10.53445625" size="1.27" layer="28" rot="MR90"/>
+<element name="RCB7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="30.870384375" y="13.709453125" smashed="yes" rot="MR90">
+<attribute name="NAME" x="31.606984375" y="21.608853125" size="1.27" layer="26" rot="MR270"/>
+<attribute name="POPULARITY" value="0" x="30.870384375" y="13.709453125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="30.870384375" y="13.709453125" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="27.695384375" y="10.534453125" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RCB8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="27.76639375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="27.76639375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="28.40139375" y="21.50725625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="0" x="27.76639375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="27.76639375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="24.59139375" y="10.53445625" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RCB9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="24.71839375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="24.71839375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="24.38819375" y="16.93525625" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="24.71839375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="24.71839375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="21.54339375" y="10.53445625" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RCB2-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="96.474140625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="97.312340625" y="41.803734375" size="1.27" layer="26" rot="MR270"/>
+<element name="RCB2-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="96.474140625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="97.441003125" y="44.0888375" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="0" x="96.474140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="96.474140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="99.649140625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RCB1-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="93.375340625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="93.857940625" y="42.667334375" size="1.27" layer="26" rot="MR270"/>
+<element name="RCB1-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="93.375340625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="94.0831" y="44.30875" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="0" x="93.375340625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="93.375340625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="96.550340625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RCB0-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="90.327340625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="91.063940625" y="42.514934375" size="1.27" layer="26" rot="MR270"/>
+<element name="RCB0-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="90.327340625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="91.514259375" y="44.381640625" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="0" x="90.327340625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="90.327340625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="93.502340625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RCB3-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="99.522140625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="100.207940625" y="42.413334375" size="1.27" layer="26" rot="MR270"/>
+<element name="RCB3-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="99.522140625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="99.886284375" y="44.2800375" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="0" x="99.522140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="99.522140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="102.697140625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RCB4-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="102.570140625" y="39.289134375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="103.459140625" y="42.006934375" size="1.27" layer="26" rot="MR270"/>
+<element name="RCB4-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="102.570140625" y="39.289134375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="103.23398125" y="44.51733125" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="0" x="102.570140625" y="39.289134375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="102.570140625" y="39.289134375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="105.745140625" y="42.464134375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RCB5-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="105.618140625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="105.287940625" y="36.114134375" size="1.27" layer="26" rot="MR90"/>
+<element name="RCB5-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="105.618140625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="105.255775" y="38.238315625" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="105.618140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="105.618140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="108.793140625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RCB6-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="108.666140625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="108.031140625" y="36.114134375" size="1.27" layer="26" rot="MR90"/>
+<element name="RCB6-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="108.666140625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="108.013134375" y="38.18814375" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="108.666140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="108.666140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="111.841140625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RCB7-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="111.714140625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="111.002940625" y="36.012534375" size="1.27" layer="26" rot="MR90"/>
+<element name="RCB7-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="111.714140625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="110.809946875" y="38.007978125" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="111.714140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="111.714140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="114.889140625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RCB8-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="114.762140625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="113.974740625" y="36.469734375" size="1.27" layer="26" rot="MR90"/>
+<element name="RCB8-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="114.762140625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="114.103403125" y="38.01459375" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="114.762140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="114.762140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="117.937140625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RCB9-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="117.810140625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="118.495940625" y="42.438734375" size="1.27" layer="26" rot="MR270"/>
+<element name="RCB9-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="117.810140625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="118.495940625" y="42.438734375" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="117.810140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="117.810140625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="120.985140625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
@@ -2887,7 +2894,7 @@ wave soldering</description>
 <attribute name="VALUE" x="44.40339375" y="48.12645625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CTEMP7" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="40.46639375" y="48.76145625" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.20299375" y="41.06525625" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="41.164390625" y="40.060465625" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="73" x="40.46639375" y="48.76145625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="40.46639375" y="48.76145625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="42.37139375" y="48.12645625" size="1.27" layer="27" rot="R90"/>
@@ -2899,19 +2906,19 @@ wave soldering</description>
 <attribute name="VALUE" x="36.27539375" y="48.12645625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CTEMP5" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="32.33839375" y="48.76145625" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.12579375" y="40.91285625" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="33.07946875" y="40.170778125" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="73" x="32.33839375" y="48.76145625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="32.33839375" y="48.76145625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="34.24339375" y="48.12645625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CTEMP4" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="26.24239375" y="48.76145625" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.82659375" y="41.06525625" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="26.91924375" y="40.323175" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="73" x="26.24239375" y="48.76145625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="26.24239375" y="48.76145625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="28.14739375" y="48.12645625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CTEMP3" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="21.92439375" y="49.26945625" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.92339375" y="48.53285625" size="1.27" layer="25"/>
+<attribute name="NAME" x="13.442790625" y="48.53285625" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="73" x="21.92439375" y="49.26945625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="21.92439375" y="49.26945625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="22.55939375" y="51.17445625" size="1.27" layer="27" rot="R180"/>
@@ -2923,7 +2930,7 @@ wave soldering</description>
 <attribute name="VALUE" x="22.55939375" y="47.11045625" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="CTEMP1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="21.92439375" y="39.10945625" smashed="yes" rot="R180">
-<attribute name="NAME" x="20.22259375" y="39.64285625" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="22.956671875" y="38.13018125" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="73" x="21.92439375" y="39.10945625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="21.92439375" y="39.10945625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="22.55939375" y="41.01445625" size="1.27" layer="27" rot="R180"/>
@@ -2935,43 +2942,43 @@ wave soldering</description>
 <attribute name="VALUE" x="129.011540625" y="24.709534375" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CTEMP10" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="127.614540625" y="17.114934375" smashed="yes" rot="R270">
-<attribute name="NAME" x="127.284340625" y="15.514734375" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="126.950703125" y="14.178296875" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="73" x="127.614540625" y="17.114934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="127.614540625" y="17.114934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="125.709540625" y="17.749934375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CTEMP16" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="110.342540625" y="6.192934375" smashed="yes" rot="R270">
-<attribute name="NAME" x="109.117209375" y="8.176221875" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="109.784484375" y="3.275959375" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="73" x="110.342540625" y="6.192934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="110.342540625" y="6.192934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="108.437540625" y="6.827934375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CTEMP15" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="113.644540625" y="7.716934375" smashed="yes" rot="R270">
-<attribute name="NAME" x="112.142428125" y="8.332009375" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="113.0877375" y="4.712496875" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="73" x="113.644540625" y="7.716934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="113.644540625" y="7.716934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="111.739540625" y="8.351934375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CTEMP12" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="122.026540625" y="13.304934375" smashed="yes" rot="R270">
-<attribute name="NAME" x="121.594740625" y="11.603134375" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="120.927465625" y="10.4894375" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="73" x="122.026540625" y="13.304934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="122.026540625" y="13.304934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="120.121540625" y="13.939934375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CTEMP14" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="116.438540625" y="9.494934375" smashed="yes" rot="R270">
-<attribute name="NAME" x="115.52396875" y="8.713025" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="115.746396875" y="6.541315625" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="73" x="116.438540625" y="9.494934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="116.438540625" y="9.494934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="114.533540625" y="10.129934375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CTEMP11" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="124.820540625" y="15.082934375" smashed="yes" rot="R270">
-<attribute name="NAME" x="124.388740625" y="13.482734375" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="124.221921875" y="12.201984375" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="73" x="124.820540625" y="15.082934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="124.820540625" y="15.082934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="122.915540625" y="15.717934375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CTEMP13" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="119.232540625" y="11.526934375" smashed="yes" rot="R270">
-<attribute name="NAME" x="118.749940625" y="9.825134375" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="118.36069375" y="8.7114375" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="73" x="119.232540625" y="11.526934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="119.232540625" y="11.526934375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="117.327540625" y="12.161934375" size="1.27" layer="27" rot="R270"/>
@@ -2993,7 +3000,7 @@ wave soldering</description>
 <attribute name="VALUE" x="25.4364875" y="12.64435" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CCB10" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="34.92919375" y="25.13945625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="33.78619375" y="24.75845625" size="0.508" layer="26" rot="MR270"/>
+<attribute name="NAME" x="34.133625" y="25.956478125" size="0.508" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="73" x="27.51239375" y="25.13945625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="27.51239375" y="25.13945625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="36.83419375" y="25.77445625" size="1.27" layer="28" rot="MR270"/>
@@ -3004,7 +3011,7 @@ wave soldering</description>
 <attribute name="SPICEPREFIX" value="C" x="34.75139375" y="23.31065625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="35.18319375" y="23.94565625" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="RCB10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="21.67039375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="21.67039375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="21.28939375" y="17.39245625" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="7.03999375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="7.03999375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3015,7 +3022,7 @@ wave soldering</description>
 <attribute name="VALUE" x="22.8964875" y="12.69515" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CCB11" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="32.89719375" y="26.61265625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="31.62719375" y="26.23165625" size="0.508" layer="26" rot="MR270"/>
+<attribute name="NAME" x="32.051834375" y="27.85478125" size="0.508" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="73" x="30.35719375" y="26.61265625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="30.35719375" y="26.61265625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="34.80219375" y="27.24765625" size="1.27" layer="28" rot="MR270"/>
@@ -3026,7 +3033,7 @@ wave soldering</description>
 <attribute name="SPICEPREFIX" value="C" x="37.57079375" y="25.13945625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="33.12579375" y="25.77445625" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="RCB11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="18.62239375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="18.62239375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="18.36839375" y="17.26545625" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="3.99199375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="3.99199375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3037,7 +3044,7 @@ wave soldering</description>
 <attribute name="VALUE" x="20.3564875" y="12.69515" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CCB12" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="30.86519375" y="28.03505625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="29.59519375" y="28.92405625" size="0.508" layer="26" rot="MR270"/>
+<attribute name="NAME" x="30.13564375" y="29.03999375" size="0.508" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="73" x="28.32519375" y="28.03505625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="28.32519375" y="28.03505625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="32.77019375" y="28.67005625" size="1.27" layer="28" rot="MR270"/>
@@ -3048,7 +3055,7 @@ wave soldering</description>
 <attribute name="SPICEPREFIX" value="C" x="35.53879375" y="26.96825625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="31.09379375" y="27.60325625" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="RCB12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="15.57439375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="15.57439375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="15.19339375" y="17.26545625" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="0.94399375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="0.94399375" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3059,7 +3066,7 @@ wave soldering</description>
 <attribute name="VALUE" x="17.8164875" y="12.69515" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CCB13" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="37.82479375" y="29.00025625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="36.55479375" y="30.01625625" size="0.508" layer="26" rot="MR270"/>
+<attribute name="NAME" x="37.165940625" y="29.790965625" size="0.508" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="73" x="35.28479375" y="29.00025625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="35.28479375" y="29.00025625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="39.72979375" y="29.63525625" size="1.27" layer="28" rot="MR270"/>
@@ -3069,7 +3076,7 @@ wave soldering</description>
 <attribute name="POPULARITY" value="73" x="33.48139375" y="28.79705625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="33.48139375" y="28.79705625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RCB13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="12.52639375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="12.52639375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="12.14539375" y="17.13845625" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="-2.10400625" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-2.10400625" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -3080,7 +3087,7 @@ wave soldering</description>
 <attribute name="VALUE" x="15.2764875" y="12.69515" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CCB14" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="39.90759375" y="30.52425625" smashed="yes" rot="MR270">
-<attribute name="NAME" x="41.55859375" y="31.66725625" size="0.508" layer="26" rot="MR270"/>
+<attribute name="NAME" x="40.078975" y="29.34996875" size="0.508" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="73" x="37.36759375" y="30.52425625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="37.36759375" y="30.52425625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="41.81259375" y="31.15925625" size="1.27" layer="28" rot="MR270"/>
@@ -3091,13 +3098,13 @@ wave soldering</description>
 <attribute name="SPICEPREFIX" value="C" x="36.50399375" y="30.57505625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="32.05899375" y="31.21005625" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="RCB14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="9.47839375" y="13.70945625" smashed="yes" rot="MR90">
+<element name="RCB14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="9.47839375" y="13.70945625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="9.47839375" y="17.39245625" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="-5.15200625" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-5.15200625" y="13.70945625" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="6.30339375" y="10.53445625" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="RNPN" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2512W" package3d_urn="urn:adsk.eagle:package:23565/2" value="150?" x="56.56999375" y="45.96745625" smashed="yes" rot="R270">
+<element name="RNPN" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2512W" package3d_urn="urn:adsk.eagle:package:23565/2" value="560" x="56.56999375" y="45.96745625" smashed="yes" rot="R270">
 <attribute name="NAME" x="58.47499375" y="47.87245625" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="2" x="56.56999375" y="45.96745625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="56.56999375" y="45.96745625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3108,7 +3115,7 @@ wave soldering</description>
 <attribute name="VALUE" x="116.565540625" y="39.670134375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CCB10-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="113.644540625" y="30.068934375" smashed="yes" rot="MR90">
-<attribute name="NAME" x="114.787540625" y="30.068934375" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="114.11749375" y="29.693446875" size="0.508" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="73" x="116.184540625" y="15.641734375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="116.184540625" y="15.641734375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="111.739540625" y="29.433934375" size="1.27" layer="28" rot="MR90"/>
@@ -3119,8 +3126,8 @@ wave soldering</description>
 <attribute name="SPICEPREFIX" value="C" x="100.538140625" y="23.515734375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="112.399940625" y="30.043534375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RCB10-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="120.883540625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="121.899540625" y="42.413334375" size="1.27" layer="26" rot="MR270"/>
+<element name="RCB10-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="120.883540625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="121.899540625" y="42.413334375" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="135.513940625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="135.513940625" y="39.238334375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="124.058540625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
@@ -3130,7 +3137,7 @@ wave soldering</description>
 <attribute name="VALUE" x="119.232540625" y="39.670134375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CCB11-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="108.57355" y="28.027921875" smashed="yes" rot="MR90">
-<attribute name="NAME" x="109.71655" y="27.011921875" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="109.121" y="27.216734375" size="0.508" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="73" x="96.48315" y="28.027921875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="96.48315" y="28.027921875" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="106.66855" y="27.392921875" size="1.27" layer="28" rot="MR90"/>
@@ -3141,8 +3148,8 @@ wave soldering</description>
 <attribute name="SPICEPREFIX" value="C" x="124.617340625" y="15.082934375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="114.431940625" y="28.773534375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RCB11-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="123.956940625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="124.464940625" y="42.413334375" size="1.27" layer="26" rot="MR270"/>
+<element name="RCB11-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="123.956940625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="124.464940625" y="42.413334375" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="160.634540625" y="46.451934375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="160.634540625" y="46.451934375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="127.131940625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
@@ -3152,7 +3159,7 @@ wave soldering</description>
 <attribute name="VALUE" x="121.772540625" y="39.670134375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CCB12-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="113.644540625" y="26.919334375" smashed="yes" rot="MR90">
-<attribute name="NAME" x="112.120540625" y="25.649334375" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="114.307803125" y="25.97118125" size="0.508" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="73" x="79.506940625" y="19.756534375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="79.506940625" y="19.756534375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="111.739540625" y="26.284334375" size="1.27" layer="28" rot="MR90"/>
@@ -3163,8 +3170,8 @@ wave soldering</description>
 <attribute name="SPICEPREFIX" value="C" x="144.226140625" y="28.036934375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="116.870340625" y="27.401934375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RCB12-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="127.004940625" y="39.238334375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="127.512940625" y="41.778334375" size="1.27" layer="26" rot="MR270"/>
+<element name="RCB12-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="127.004940625" y="39.238334375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="127.512940625" y="41.778334375" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="185.729740625" y="53.665534375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="185.729740625" y="53.665534375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="130.179940625" y="42.413334375" size="1.27" layer="28" rot="MR270"/>
@@ -3174,7 +3181,7 @@ wave soldering</description>
 <attribute name="VALUE" x="124.312540625" y="39.670134375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CCB13-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="115.676540625" y="25.242934375" smashed="yes" rot="MR90">
-<attribute name="NAME" x="116.819540625" y="23.845934375" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="116.33705625" y="24.42525625" size="0.508" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="73" x="59.491740625" y="10.917334375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="59.491740625" y="10.917334375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="113.771540625" y="24.607934375" size="1.27" layer="28" rot="MR90"/>
@@ -3185,8 +3192,8 @@ wave soldering</description>
 <attribute name="SPICEPREFIX" value="C" x="164.190540625" y="18.842134375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="114.787540625" y="25.369934375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RCB13-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="130.103740625" y="38.806534375" smashed="yes" rot="MR270">
-<attribute name="NAME" x="130.611740625" y="42.108534375" size="1.27" layer="26" rot="MR270"/>
+<element name="RCB13-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="130.103740625" y="38.806534375" smashed="yes" rot="MR270">
+<attribute name="NAME" x="130.611740625" y="42.108534375" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="0" x="203.458940625" y="38.806534375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="203.458940625" y="38.806534375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="133.278740625" y="41.981534375" size="1.27" layer="28" rot="MR270"/>
@@ -3196,7 +3203,7 @@ wave soldering</description>
 <attribute name="VALUE" x="126.725540625" y="39.670134375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CCB14-1" library="NFR23_v1.3" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.47uF" x="108.564540625" y="24.887334375" smashed="yes" rot="MR90">
-<attribute name="NAME" x="109.707540625" y="23.490334375" size="0.508" layer="26" rot="MR90"/>
+<attribute name="NAME" x="109.20504375" y="23.471715625" size="0.508" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="73" x="35.209340625" y="24.887334375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="35.209340625" y="24.887334375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="106.659540625" y="24.252334375" size="1.27" layer="28" rot="MR90"/>
@@ -3207,14 +3214,14 @@ wave soldering</description>
 <attribute name="SPICEPREFIX" value="C" x="188.269740625" y="10.053734375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="116.819540625" y="23.744334375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RCB14-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10" x="133.177140625" y="38.069934375" smashed="yes" rot="MR270">
+<element name="RCB14-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="50" x="133.177140625" y="38.069934375" smashed="yes" rot="MR270">
 <attribute name="NAME" x="136.352140625" y="40.863934375" size="1.27" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="0" x="228.579540625" y="45.283534375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="228.579540625" y="45.283534375" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="136.352140625" y="41.244934375" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="RNPN-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2512W" package3d_urn="urn:adsk.eagle:package:23565/2" value="150?" x="104.652940625" y="6.091334375" smashed="yes" rot="R270">
-<attribute name="NAME" x="106.557940625" y="7.996334375" size="1.27" layer="25" rot="R270"/>
+<element name="RNPN-1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2512W" package3d_urn="urn:adsk.eagle:package:23565/2" value="560" x="104.652940625" y="6.091334375" smashed="yes" rot="R270">
+<attribute name="NAME" x="102.109434375" y="8.775921875" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="2" x="104.652940625" y="6.091334375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="104.652940625" y="6.091334375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="101.477940625" y="7.996334375" size="1.27" layer="27" rot="R270"/>
@@ -3228,10 +3235,18 @@ wave soldering</description>
 </element>
 <element name="LOW-IN" library="TFM-120-02-L-D" package="SAMTEC_TFM-120-02-L-D" value="TFM-120-02-L-D" x="34.366671875" y="5.900765625" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Samtec" x="34.366671875" y="5.900765625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="49.795734375" y="1.0584375" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="49.161134375" y="2.0612" size="1.27" layer="25" rot="R180"/>
 <attribute name="PARTREV" value="R" x="34.366671875" y="5.900765625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="STANDARD" value="Manufacturer Recommendations" x="34.366671875" y="5.900765625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="49.656671875" y="11.575765625" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="RGNDL" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="52.744840625" y="5.5839625" smashed="yes" rot="MR90">
+<attribute name="NAME" x="53.379840625" y="4.9489625" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="50.839840625" y="4.9489625" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="RGNDH" library="NFR23_v1.3" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0" x="90.363328125" y="46.24095625" smashed="yes" rot="MR270">
+<attribute name="NAME" x="89.728328125" y="46.87595625" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="92.268328125" y="46.87595625" size="1.27" layer="28" rot="MR270"/>
 </element>
 </elements>
 <signals>
@@ -3250,14 +3265,16 @@ wave soldering</description>
 <wire x1="54.69079375" y1="48.86345625" x2="56.56999375" y2="48.86345625" width="0.6096" layer="1"/>
 <contactref element="RCB14" pad="1"/>
 <contactref element="LOW-IN" pad="40"/>
-<wire x1="15.565746875" y1="4.185765625" x2="17.5704125" y2="4.185765625" width="0.6096" layer="1"/>
-<wire x1="17.5704125" y1="4.185765625" x2="22.301671875" y2="4.185765625" width="0.6096" layer="1"/>
 <wire x1="11.89139375" y1="7.86011875" x2="15.565746875" y2="4.185765625" width="0.6096" layer="1"/>
-<wire x1="9.47839375" y1="7.3944375" x2="12.780928125" y2="4.091903125" width="0.4064" layer="16"/>
+<wire x1="9.47839375" y1="7.3944375" x2="12.780928125" y2="4.091903125" width="0.508" layer="16"/>
 <via x="12.780928125" y="4.091903125" extent="1-16" drill="0.35" diameter="0.55"/>
-<wire x1="12.780928125" y1="4.091903125" x2="17.47655" y2="4.091903125" width="0.3048" layer="1"/>
-<wire x1="17.47655" y1="4.091903125" x2="17.5704125" y2="4.185765625" width="0.3048" layer="1"/>
-<wire x1="9.47839375" y1="11.50945625" x2="9.47839375" y2="7.3944375" width="0.4064" layer="16"/>
+<wire x1="12.780928125" y1="4.091903125" x2="13.57498125" y2="3.29785" width="0.3048" layer="1"/>
+<wire x1="9.47839375" y1="11.50945625" x2="9.47839375" y2="7.3944375" width="0.508" layer="16"/>
+<wire x1="15.565746875" y1="4.185765625" x2="22.301671875" y2="4.185765625" width="0.6096" layer="1"/>
+<wire x1="13.57498125" y1="3.29785" x2="21.4299625" y2="3.29785" width="0.3048" layer="1"/>
+<wire x1="22.285465625" y1="4.169559375" x2="22.301671875" y2="4.185765625" width="0.1524" layer="1"/>
+<wire x1="22.285465625" y1="4.169559375" x2="22.285465625" y2="4.153353125" width="0.1524" layer="1"/>
+<wire x1="22.285465625" y1="4.153353125" x2="21.4299625" y2="3.29785" width="0.1524" layer="1"/>
 </signal>
 <signal name="VC8-IN">
 <contactref element="RVC8" pad="1"/>
@@ -3343,21 +3360,21 @@ wave soldering</description>
 <contactref element="RCB1" pad="1"/>
 <contactref element="LOW-IN" pad="14"/>
 <via x="38.799434375" y="1.4638625" extent="1-16" drill="0.35" diameter="0.55"/>
-<wire x1="49.22939375" y1="11.50945625" x2="49.22939375" y2="11.473415625" width="0.4064" layer="16"/>
-<wire x1="49.22939375" y1="11.473415625" x2="47.679371875" y2="9.92339375" width="0.4064" layer="16"/>
-<wire x1="47.679371875" y1="9.92339375" x2="45.607628125" y2="9.92339375" width="0.4064" layer="16"/>
-<wire x1="45.607628125" y1="9.92339375" x2="38.799434375" y2="3.1152" width="0.4064" layer="16"/>
-<wire x1="38.799434375" y1="3.1152" x2="38.799434375" y2="1.4638625" width="0.4064" layer="16"/>
+<wire x1="49.22939375" y1="11.50945625" x2="49.22939375" y2="11.473415625" width="0.508" layer="16"/>
+<wire x1="49.22939375" y1="11.473415625" x2="47.679371875" y2="9.92339375" width="0.508" layer="16"/>
+<wire x1="47.679371875" y1="9.92339375" x2="45.607628125" y2="9.92339375" width="0.508" layer="16"/>
+<wire x1="45.607628125" y1="9.92339375" x2="38.799434375" y2="3.1152" width="0.508" layer="16"/>
+<wire x1="38.799434375" y1="3.1152" x2="38.799434375" y2="1.4638625" width="0.508" layer="16"/>
 <wire x1="38.799434375" y1="1.4638625" x2="38.799434375" y2="4.173528125" width="0.3048" layer="1"/>
 <wire x1="38.799434375" y1="4.173528125" x2="38.811671875" y2="4.185765625" width="0.3048" layer="1"/>
 </signal>
 <signal name="CB2-IN">
 <contactref element="RCB2" pad="1"/>
 <wire x1="46.18139375" y1="11.464403125" x2="46.18139375" y2="11.50945625" width="0.4064" layer="16"/>
-<wire x1="46.18139375" y1="11.464403125" x2="37.494528125" y2="2.7775375" width="0.4064" layer="16"/>
+<wire x1="46.18139375" y1="11.464403125" x2="37.494528125" y2="2.7775375" width="0.508" layer="16"/>
 <wire x1="37.51316875" y1="1.231415625" x2="37.494528125" y2="1.231415625" width="0.3048" layer="16"/>
 <contactref element="LOW-IN" pad="16"/>
-<wire x1="37.494528125" y1="1.231415625" x2="37.494528125" y2="2.7775375" width="0.4064" layer="16"/>
+<wire x1="37.494528125" y1="1.231415625" x2="37.494528125" y2="2.7775375" width="0.508" layer="16"/>
 <wire x1="37.52358125" y1="1.241828125" x2="37.51316875" y2="1.231415625" width="0.3048" layer="16"/>
 <via x="37.51316875" y="1.231415625" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="37.51316875" y1="1.231415625" x2="37.51316875" y2="4.1572625" width="0.3048" layer="1"/>
@@ -3366,9 +3383,9 @@ wave soldering</description>
 <signal name="CB3-IN">
 <contactref element="RCB3" pad="1"/>
 <contactref element="LOW-IN" pad="18"/>
-<wire x1="43.13339375" y1="11.50945625" x2="43.124375" y2="11.50945625" width="0.4064" layer="16"/>
-<wire x1="43.124375" y1="11.50945625" x2="36.2278875" y2="4.61296875" width="0.4064" layer="16"/>
-<wire x1="36.2278875" y1="1.401828125" x2="36.2278875" y2="4.61296875" width="0.4064" layer="16"/>
+<wire x1="43.13339375" y1="11.50945625" x2="43.124375" y2="11.50945625" width="0.508" layer="16"/>
+<wire x1="43.124375" y1="11.50945625" x2="36.2278875" y2="4.61296875" width="0.508" layer="16"/>
+<wire x1="36.2278875" y1="1.401828125" x2="36.2278875" y2="4.61296875" width="0.508" layer="16"/>
 <via x="36.2278875" y="1.401828125" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="36.2278875" y1="1.401828125" x2="36.271671875" y2="1.4456125" width="0.3048" layer="1"/>
 <wire x1="36.271671875" y1="1.4456125" x2="36.271671875" y2="4.185765625" width="0.3048" layer="1"/>
@@ -3377,8 +3394,8 @@ wave soldering</description>
 <contactref element="RCB4" pad="1"/>
 <contactref element="LOW-IN" pad="20"/>
 <wire x1="40.08539375" y1="11.50945625" x2="40.04933125" y2="11.50945625" width="0.4064" layer="16"/>
-<wire x1="40.04933125" y1="11.50945625" x2="34.99475625" y2="6.45488125" width="0.4064" layer="16"/>
-<wire x1="34.99475625" y1="6.45488125" x2="34.99475625" y2="1.34575625" width="0.4064" layer="16"/>
+<wire x1="40.04933125" y1="11.50945625" x2="34.99475625" y2="6.45488125" width="0.508" layer="16"/>
+<wire x1="34.99475625" y1="6.45488125" x2="34.99475625" y2="1.34575625" width="0.508" layer="16"/>
 <via x="34.99475625" y="1.34575625" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="34.99475625" y1="1.34575625" x2="34.99475625" y2="4.17885" width="0.3048" layer="1"/>
 <wire x1="34.99475625" y1="4.17885" x2="35.001671875" y2="4.185765625" width="0.3048" layer="1"/>
@@ -3386,10 +3403,10 @@ wave soldering</description>
 <signal name="CB5-IN">
 <contactref element="RCB5" pad="1"/>
 <contactref element="LOW-IN" pad="22"/>
-<wire x1="37.03739375" y1="11.50945625" x2="37.02996875" y2="11.50945625" width="0.4064" layer="16"/>
-<wire x1="37.02996875" y1="11.50945625" x2="33.78045" y2="8.2599375" width="0.4064" layer="16"/>
+<wire x1="37.03739375" y1="11.50945625" x2="37.02996875" y2="11.50945625" width="0.508" layer="16"/>
+<wire x1="37.02996875" y1="11.50945625" x2="33.78045" y2="8.2599375" width="0.508" layer="16"/>
 <wire x1="33.78045" y1="8.2599375" x2="33.770971875" y2="8.269415625" width="0.3048" layer="16"/>
-<wire x1="33.770971875" y1="1.321" x2="33.770971875" y2="8.269415625" width="0.4064" layer="16"/>
+<wire x1="33.770971875" y1="1.321" x2="33.770971875" y2="8.269415625" width="0.508" layer="16"/>
 <via x="33.770971875" y="1.321" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="33.770971875" y1="1.321" x2="33.770971875" y2="4.146465625" width="0.3048" layer="1"/>
 <wire x1="33.770971875" y1="4.146465625" x2="33.731671875" y2="4.185765625" width="0.3048" layer="1"/>
@@ -3398,8 +3415,8 @@ wave soldering</description>
 <contactref element="RCB6" pad="1"/>
 <wire x1="33.86239375" y1="11.50945625" x2="33.899590625" y2="11.4722625" width="0.3048" layer="16"/>
 <contactref element="LOW-IN" pad="24"/>
-<wire x1="33.899590625" y1="11.4722625" x2="32.48656875" y2="10.059240625" width="0.4064" layer="16"/>
-<wire x1="32.48656875" y1="10.059240625" x2="32.48656875" y2="1.321" width="0.4064" layer="16"/>
+<wire x1="33.899590625" y1="11.4722625" x2="32.48656875" y2="10.059240625" width="0.508" layer="16"/>
+<wire x1="32.48656875" y1="10.059240625" x2="32.48656875" y2="1.321" width="0.508" layer="16"/>
 <via x="32.48656875" y="1.321" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="32.48656875" y1="1.321" x2="32.48656875" y2="4.16086875" width="0.3048" layer="1"/>
 <wire x1="32.48656875" y1="4.16086875" x2="32.461671875" y2="4.185765625" width="0.3048" layer="1"/>
@@ -3407,9 +3424,9 @@ wave soldering</description>
 <signal name="CB7-IN">
 <contactref element="RCB7" pad="1"/>
 <contactref element="LOW-IN" pad="26"/>
-<wire x1="31.164578125" y1="11.2082125" x2="31.164578125" y2="1.532665625" width="0.4064" layer="16"/>
-<wire x1="31.164578125" y1="11.2082125" x2="30.8633375" y2="11.50945625" width="0.4064" layer="16"/>
-<wire x1="30.81439375" y1="11.50945625" x2="30.8633375" y2="11.50945625" width="0.4064" layer="16"/>
+<wire x1="31.164578125" y1="11.2082125" x2="31.164578125" y2="1.532665625" width="0.508" layer="16"/>
+<wire x1="31.164578125" y1="11.2082125" x2="30.870384375" y2="11.502409375" width="0.508" layer="16"/>
+<wire x1="30.870384375" y1="11.509453125" x2="30.870384375" y2="11.502409375" width="0.508" layer="16"/>
 <via x="31.164578125" y="1.532665625" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="31.164578125" y1="1.532665625" x2="31.164578125" y2="4.158671875" width="0.3048" layer="1"/>
 <wire x1="31.164578125" y1="4.158671875" x2="31.191671875" y2="4.185765625" width="0.3048" layer="1"/>
@@ -3417,9 +3434,9 @@ wave soldering</description>
 <signal name="CB9-IN">
 <contactref element="RCB9" pad="1"/>
 <contactref element="LOW-IN" pad="30"/>
-<wire x1="28.67963125" y1="7.650378125" x2="24.820553125" y2="11.50945625" width="0.4064" layer="16"/>
+<wire x1="28.67963125" y1="7.650378125" x2="24.820553125" y2="11.50945625" width="0.508" layer="16"/>
 <wire x1="24.71839375" y1="11.50945625" x2="24.820553125" y2="11.50945625" width="0.3048" layer="16"/>
-<wire x1="28.67963125" y1="7.650378125" x2="28.67963125" y2="1.457903125" width="0.4064" layer="16"/>
+<wire x1="28.67963125" y1="7.650378125" x2="28.67963125" y2="1.457903125" width="0.508" layer="16"/>
 <via x="28.67963125" y="1.457903125" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="28.67963125" y1="1.457903125" x2="28.651671875" y2="1.4858625" width="0.3048" layer="1"/>
 <wire x1="28.651671875" y1="1.4858625" x2="28.651671875" y2="4.185765625" width="0.3048" layer="1"/>
@@ -3467,11 +3484,11 @@ wave soldering</description>
 <wire x1="51.69979375" y1="32.20745625" x2="52.75979375" y2="33.26745625" width="0.1524" layer="1"/>
 <via x="52.75979375" y="33.26745625" extent="1-16" drill="0.35"/>
 <polygon width="0.1524" layer="1">
-<vertex x="48.34039375" y="37.07745625"/>
-<vertex x="49.61039375" y="37.07745625"/>
+<vertex x="48.11179375" y="36.69645625"/>
+<vertex x="49.22939375" y="36.69645625"/>
 <vertex x="50.88039375" y="38.34745625"/>
-<vertex x="50.88039375" y="44.69745625"/>
-<vertex x="48.34039375" y="44.69745625"/>
+<vertex x="50.88039375" y="45.23085625"/>
+<vertex x="48.11179375" y="45.23085625"/>
 </polygon>
 <wire x1="49.61039375" y1="40.46745625" x2="49.61039375" y2="42.15745625" width="0.1524" layer="1"/>
 <via x="49.61039375" y="42.15745625" extent="1-16" drill="0.35"/>
@@ -3579,8 +3596,6 @@ wave soldering</description>
 <wire x1="50.26279375" y1="27.20185625" x2="49.30920625" y2="27.20185625" width="0.254" layer="1"/>
 <wire x1="49.30920625" y1="27.20185625" x2="49.20389375" y2="27.30716875" width="0.254" layer="1"/>
 <wire x1="49.20389375" y1="27.30716875" x2="49.20389375" y2="28.49290625" width="0.254" layer="1"/>
-<wire x1="49.20389375" y1="27.30716875" x2="48.95860625" y2="27.55245625" width="0.254" layer="1"/>
-<wire x1="47.07039375" y1="27.55245625" x2="48.95860625" y2="27.55245625" width="0.254" layer="1"/>
 <wire x1="44.53039375" y1="29.45745625" x2="45.16539375" y2="29.45745625" width="0.1524" layer="1"/>
 <wire x1="45.16539375" y1="29.45745625" x2="47.07039375" y2="27.55245625" width="0.1524" layer="1"/>
 <wire x1="51.178025" y1="27.20745625" x2="50.26839375" y2="27.20745625" width="0.254" layer="1"/>
@@ -3647,30 +3662,6 @@ wave soldering</description>
 <vertex x="51.64239375" y="22.85345625"/>
 <vertex x="50.11839375" y="24.37745625"/>
 </polygon>
-<polygon width="0.1524" layer="1">
-<vertex x="56.21439375" y="16.75745625"/>
-<vertex x="56.21439375" y="10.40745625"/>
-<vertex x="55.1072875" y="9.30035"/>
-<vertex x="9.4171" y="9.30035"/>
-<vertex x="6.98919375" y="11.72825625"/>
-<vertex x="6.98919375" y="25.39345625"/>
-<vertex x="17.35239375" y="35.75665625"/>
-<vertex x="48.84839375" y="35.75665625"/>
-<vertex x="48.84839375" y="17.77345625"/>
-<vertex x="49.86439375" y="16.75745625"/>
-</polygon>
-<polygon width="0.254" layer="1">
-<vertex x="9.73239375" y="49.92985625"/>
-<vertex x="9.73239375" y="40.17625625"/>
-<vertex x="13.08519375" y="36.82345625"/>
-<vertex x="46.51159375" y="36.82345625"/>
-<vertex x="47.32439375" y="37.63625625"/>
-<vertex x="47.32439375" y="46.47545625"/>
-<vertex x="49.35639375" y="48.50745625"/>
-<vertex x="54.43639375" y="48.50745625"/>
-<vertex x="54.43639375" y="51.166178125"/>
-<vertex x="10.968715625" y="51.166178125"/>
-</polygon>
 <via x="55.19839375" y="15.74145625" extent="1-16" drill="0.35"/>
 <via x="34.47199375" y="34.89305625" extent="1-16" drill="0.35"/>
 <via x="20.93379375" y="34.35965625" extent="1-16" drill="0.35"/>
@@ -3680,16 +3671,15 @@ wave soldering</description>
 <via x="12.78039375" y="43.04645625" extent="1-16" drill="0.35"/>
 <via x="26.11539375" y="43.04645625" extent="1-16" drill="0.35"/>
 <via x="12.78039375" y="48.76145625" extent="1-16" drill="0.35"/>
-<via x="33.73539375" y="44.95145625" extent="1-16" drill="0.35"/>
-<via x="52.2438125" y="50.2359375" extent="1-16" drill="0.35"/>
+<via x="49.88163125" y="49.8219375" extent="1-16" drill="0.35"/>
 <polygon width="0.254" layer="2">
 <vertex x="48.59439375" y="29.33045625"/>
 <vertex x="48.59439375" y="18.66245625"/>
 <vertex x="50.75339375" y="16.50345625"/>
 <vertex x="56.08739375" y="16.50345625"/>
 <vertex x="63.32639375" y="9.26445625"/>
-<vertex x="63.32639375" y="3.54945625"/>
-<vertex x="11.40879375" y="3.54945625"/>
+<vertex x="63.32639375" y="1.41585625"/>
+<vertex x="13.54239375" y="1.41585625"/>
 <vertex x="4.76806875" y="10.19018125"/>
 <vertex x="4.76806875" y="45.11793125"/>
 <vertex x="11.2347" y="51.5845625"/>
@@ -3708,8 +3698,8 @@ wave soldering</description>
 <vertex x="66.12039375" y="18.91645625"/>
 <vertex x="66.12039375" y="51.579675"/>
 <vertex x="0.71539375" y="51.579675"/>
-<vertex x="0.71539375" y="3.67645625"/>
-<vertex x="63.58039375" y="3.67645625"/>
+<vertex x="0.71539375" y="1.506040625"/>
+<vertex x="63.58039375" y="1.506040625"/>
 <vertex x="63.58039375" y="11.93145625"/>
 <vertex x="61.67539375" y="13.83645625"/>
 <vertex x="61.67539375" y="17.64645625"/>
@@ -3746,32 +3736,101 @@ wave soldering</description>
 <via x="10.36739375" y="25.46965625" extent="1-16" drill="0.35"/>
 <via x="8.69099375" y="21.40565625" extent="1-16" drill="0.35"/>
 <contactref element="LOW-IN" pad="01"/>
-<contactref element="RCB0" pad="1"/>
 <contactref element="LOW-IN" pad="12"/>
 <contactref element="LOW-IN" pad="02"/>
-<wire x1="50.015603125" y1="2.31845625" x2="50.042971875" y2="2.31845625" width="0.4064" layer="16"/>
-<wire x1="52.596640625" y1="4.872125" x2="50.042971875" y2="2.31845625" width="0.4064" layer="16"/>
-<via x="50.015603125" y="2.31845625" extent="1-16" drill="0.35" diameter="0.55"/>
-<wire x1="52.27739375" y1="11.50945625" x2="52.596640625" y2="11.190209375" width="0.4064" layer="16"/>
-<wire x1="52.596640625" y1="11.190209375" x2="52.596640625" y2="4.872125" width="0.4064" layer="16"/>
-<wire x1="50.015603125" y1="2.31845625" x2="47.2415" y2="2.31845625" width="0.3048" layer="1"/>
-<wire x1="47.2415" y1="2.31845625" x2="46.431671875" y2="3.128284375" width="0.3048" layer="1"/>
 <wire x1="46.431671875" y1="3.128284375" x2="46.431671875" y2="4.185765625" width="0.3048" layer="1"/>
 <via x="40.11065625" y="2.261503125" extent="1-16" drill="0.35" diameter="0.55"/>
-<wire x1="50.015603125" y1="2.31845625" x2="49.9864125" y2="2.289265625" width="0.3048" layer="16"/>
-<wire x1="49.9864125" y1="2.289265625" x2="40.189046875" y2="2.289265625" width="0.3048" layer="16"/>
+<wire x1="40.189046875" y1="2.289265625" x2="48.497525" y2="2.289265625" width="0.3048" layer="16"/>
 <wire x1="40.189046875" y1="2.289265625" x2="40.16126875" y2="2.2614875" width="0.4064" layer="16"/>
 <wire x1="40.16126875" y1="2.2614875" x2="40.11065625" y2="2.261503125" width="0.4064" layer="16"/>
 <wire x1="40.11065625" y1="2.261503125" x2="40.11065625" y2="4.15678125" width="0.3048" layer="1"/>
 <wire x1="40.11065625" y1="4.15678125" x2="40.081671875" y2="4.185765625" width="0.3048" layer="1"/>
 <wire x1="46.431671875" y1="7.615765625" x2="46.431671875" y2="4.185765625" width="0.3048" layer="1"/>
+<contactref element="RGNDL" pad="1"/>
+<wire x1="52.7304875" y1="4.719609375" x2="50.92786875" y2="4.719609375" width="0.4064" layer="16"/>
+<wire x1="48.497525" y1="2.289265625" x2="50.92786875" y2="4.719609375" width="0.4064" layer="16"/>
+<wire x1="52.7304875" y1="4.719609375" x2="52.744840625" y2="4.7339625" width="0.4064" layer="16"/>
+<polygon width="0.3048" layer="1">
+<vertex x="47.7012" y="50.9016"/>
+<vertex x="47.7012" y="46.9392"/>
+<vertex x="49.3014" y="48.5394"/>
+<vertex x="49.4538" y="48.5394"/>
+<vertex x="51.3588" y="48.5394"/>
+<vertex x="51.3588" y="51.1302"/>
+<vertex x="47.7012" y="51.1302"/>
+<vertex x="47.7012" y="50.9778"/>
+</polygon>
+<polygon width="0.3048" layer="1">
+<vertex x="31.3182" y="50.5968"/>
+<vertex x="31.3182" y="48.6156"/>
+<vertex x="31.3944" y="48.6918"/>
+<vertex x="35.433" y="48.6918"/>
+<vertex x="35.433" y="50.5968"/>
+</polygon>
+<polygon width="0.3048" layer="1">
+<vertex x="39.7002" y="50.3682"/>
+<vertex x="39.7002" y="48.768"/>
+<vertex x="43.2816" y="48.768"/>
+<vertex x="43.2816" y="50.4444"/>
+<vertex x="39.7002" y="50.4444"/>
+</polygon>
+<polygon width="0.3048" layer="1">
+<vertex x="13.9446" y="42.672"/>
+<vertex x="18.288" y="42.672"/>
+<vertex x="18.288" y="37.9476"/>
+<vertex x="18.3642" y="37.8714"/>
+<vertex x="13.8684" y="37.8714"/>
+<vertex x="13.8684" y="42.5958"/>
+</polygon>
+<polygon width="0.3048" layer="1">
+<vertex x="45.72" y="9.4488"/>
+<vertex x="45.72" y="2.5146"/>
+<vertex x="46.7868" y="1.4478"/>
+<vertex x="63.3984" y="1.4478"/>
+<vertex x="63.4746" y="1.524"/>
+<vertex x="63.4746" y="9.2202"/>
+<vertex x="56.0832" y="16.6116"/>
+<vertex x="50.9016" y="16.6116"/>
+<vertex x="50.7492" y="16.4592"/>
+<vertex x="45.72" y="11.43"/>
+</polygon>
+<polygon width="0.3048" layer="1">
+<vertex x="33.8328" y="36.0426"/>
+<vertex x="37.1856" y="36.0426"/>
+<vertex x="38.0238" y="35.2044"/>
+<vertex x="38.0238" y="34.2138"/>
+<vertex x="37.1856" y="33.3756"/>
+<vertex x="33.6042" y="33.3756"/>
+<vertex x="32.766" y="34.2138"/>
+<vertex x="32.766" y="35.052"/>
+<vertex x="33.7566" y="36.0426"/>
+</polygon>
+<polygon width="0.3048" layer="1" thermals="no">
+<vertex x="39.7002" y="34.3662"/>
+<vertex x="48.387" y="34.3662"/>
+<vertex x="49.53" y="33.2232"/>
+<vertex x="49.53" y="29.4894"/>
+<vertex x="48.8442" y="28.8036"/>
+<vertex x="48.8442" y="24.8412"/>
+<vertex x="48.3108" y="24.3078"/>
+<vertex x="40.1574" y="24.3078"/>
+<vertex x="39.1668" y="25.2984"/>
+<vertex x="39.1668" y="33.8328"/>
+</polygon>
+<via x="44.7294" y="33.909" extent="1-16" drill="0.35"/>
+<via x="49.0728" y="30.5562" extent="1-16" drill="0.35"/>
+<via x="48.9966" y="29.4132" extent="1-16" drill="0.35"/>
+<via x="44.7294" y="24.9936" extent="1-16" drill="0.35"/>
+<via x="40.005" y="27.5082" extent="1-16" drill="0.35"/>
+<via x="40.005" y="26.289" extent="1-16" drill="0.35"/>
+<via x="40.005" y="25.146" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="CB8-IN">
 <contactref element="RCB8" pad="1"/>
-<wire x1="27.73256875" y1="11.47563125" x2="27.76639375" y2="11.50945625" width="0.254" layer="16"/>
+<wire x1="27.73256875" y1="11.47563125" x2="27.76639375" y2="11.50945625" width="0.508" layer="16"/>
 <contactref element="LOW-IN" pad="28"/>
-<wire x1="29.9127625" y1="9.295434375" x2="29.9127625" y2="1.495284375" width="0.4064" layer="16"/>
-<wire x1="29.9127625" y1="9.295434375" x2="27.73256875" y2="11.47563125" width="0.4064" layer="16"/>
+<wire x1="29.9127625" y1="9.295434375" x2="29.9127625" y2="1.495284375" width="0.508" layer="16"/>
+<wire x1="29.9127625" y1="9.295434375" x2="27.73256875" y2="11.47563125" width="0.508" layer="16"/>
 <via x="29.9127625" y="1.495284375" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="29.9127625" y1="1.495284375" x2="29.9127625" y2="4.17685625" width="0.3048" layer="1"/>
 <wire x1="29.9127625" y1="4.17685625" x2="29.921671875" y2="4.185765625" width="0.3048" layer="1"/>
@@ -3971,9 +4030,9 @@ wave soldering</description>
 <wire x1="42.28039375" y1="23.71945625" x2="42.28039375" y2="22.22145625" width="0.2" layer="1"/>
 <wire x1="42.28039375" y1="22.22145625" x2="41.13439375" y2="21.07545625" width="0.2" layer="1"/>
 <via x="41.13439375" y="21.07545625" extent="1-16" drill="0.35"/>
-<wire x1="30.81439375" y1="16.16345625" x2="30.81439375" y2="15.90945625" width="0.3048" layer="16"/>
+<wire x1="30.870384375" y1="16.219446875" x2="30.870384375" y2="15.909453125" width="0.3048" layer="16"/>
 <wire x1="37.92639375" y1="21.11265625" x2="35.76359375" y2="21.11265625" width="0.3048" layer="16"/>
-<wire x1="35.76359375" y1="21.11265625" x2="30.81439375" y2="16.16345625" width="0.3048" layer="16"/>
+<wire x1="35.76359375" y1="21.11265625" x2="30.870384375" y2="16.219446875" width="0.3048" layer="16"/>
 <wire x1="41.13439375" y1="21.07545625" x2="41.04639375" y2="20.98745625" width="0.3048" layer="16"/>
 <wire x1="41.04639375" y1="20.98745625" x2="39.95839375" y2="20.98745625" width="0.3048" layer="16"/>
 <wire x1="39.95839375" y1="20.98745625" x2="38.05159375" y2="20.98745625" width="0.3048" layer="16"/>
@@ -4224,13 +4283,13 @@ wave soldering</description>
 <via x="44.09859375" y="41.80185625" extent="1-16" drill="0.35"/>
 <wire x1="44.28039375" y1="35.19545625" x2="44.28039375" y2="41.62005625" width="0.1524" layer="1"/>
 <wire x1="44.28039375" y1="41.62005625" x2="44.09859375" y2="41.80185625" width="0.1524" layer="1"/>
-<wire x1="45.16539375" y1="40.73505625" x2="44.09859375" y2="41.80185625" width="0.254" layer="15"/>
+<wire x1="45.47019375" y1="40.43025625" x2="44.09859375" y2="41.80185625" width="0.254" layer="15"/>
 <contactref element="CTEMP5" pad="1"/>
 <wire x1="44.09859375" y1="41.80185625" x2="38.44799375" y2="41.80185625" width="0.2032" layer="1"/>
 <wire x1="38.44799375" y1="41.80185625" x2="32.33839375" y2="47.91145625" width="0.2032" layer="1"/>
 <wire x1="30.30639375" y1="47.91145625" x2="32.33839375" y2="47.91145625" width="0.3048" layer="1"/>
-<wire x1="56.126834375" y1="9.63204375" x2="45.16539375" y2="20.593484375" width="0.254" layer="15"/>
-<wire x1="45.16539375" y1="20.593484375" x2="45.16539375" y2="40.73505625" width="0.254" layer="15"/>
+<wire x1="56.126834375" y1="9.63204375" x2="45.47019375" y2="20.288684375" width="0.254" layer="15"/>
+<wire x1="45.47019375" y1="20.288684375" x2="45.47019375" y2="40.43025625" width="0.254" layer="15"/>
 <contactref element="LOW-IN" pad="05"/>
 <via x="56.126834375" y="9.63204375" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="44.930265625" y1="9.792153125" x2="43.919740625" y2="8.781628125" width="0.254" layer="1"/>
@@ -4320,14 +4379,14 @@ wave soldering</description>
 <via x="43.59059375" y="40.78585625" extent="1-16" drill="0.35"/>
 <wire x1="43.78039375" y1="35.19545625" x2="43.78039375" y2="40.59605625" width="0.1524" layer="1"/>
 <wire x1="43.78039375" y1="40.59605625" x2="43.59059375" y2="40.78585625" width="0.1524" layer="1"/>
-<wire x1="44.27639375" y1="40.10005625" x2="43.59059375" y2="40.78585625" width="0.254" layer="15"/>
+<wire x1="43.97159375" y1="40.40485625" x2="43.59059375" y2="40.78585625" width="0.254" layer="15"/>
 <contactref element="CTEMP4" pad="1"/>
 <wire x1="43.59059375" y1="40.78585625" x2="35.48799375" y2="40.78585625" width="0.2032" layer="1"/>
 <wire x1="28.36239375" y1="47.91145625" x2="28.27439375" y2="47.91145625" width="0.2032" layer="1"/>
 <wire x1="35.48799375" y1="40.78585625" x2="28.36239375" y2="47.91145625" width="0.2032" layer="1"/>
 <wire x1="28.27439375" y1="47.91145625" x2="26.24239375" y2="47.91145625" width="0.3048" layer="1"/>
-<wire x1="53.2476625" y1="11.0881875" x2="44.27639375" y2="20.05945625" width="0.254" layer="15"/>
-<wire x1="44.27639375" y1="20.05945625" x2="44.27639375" y2="40.10005625" width="0.254" layer="15"/>
+<wire x1="53.2476625" y1="11.0881875" x2="43.97159375" y2="20.36425625" width="0.254" layer="15"/>
+<wire x1="43.97159375" y1="20.36425625" x2="43.97159375" y2="40.40485625" width="0.254" layer="15"/>
 <wire x1="53.2476625" y1="11.0881875" x2="53.2476625" y2="6.181096875" width="0.254" layer="15"/>
 <contactref element="LOW-IN" pad="08"/>
 <wire x1="53.2476625" y1="6.181096875" x2="51.183903125" y2="4.1173375" width="0.254" layer="15"/>
@@ -5309,16 +5368,15 @@ wave soldering</description>
 <contactref element="IC1" pad="46"/>
 <contactref element="IC1" pad="65"/>
 <contactref element="CBAT-1" pad="1"/>
-<wire x1="98.052240625" y1="27.720221875" x2="98.052240625" y2="27.020934375" width="0.1524" layer="1"/>
-<wire x1="98.052240625" y1="27.020934375" x2="98.052240625" y2="26.730846875" width="0.1524" layer="1"/>
+<wire x1="98.052240625" y1="27.720221875" x2="98.052240625" y2="26.730846875" width="0.1524" layer="1"/>
 <wire x1="97.822328125" y1="26.500934375" x2="98.052240625" y2="26.730846875" width="0.1524" layer="1"/>
 <wire x1="96.984540625" y1="26.500934375" x2="97.822328125" y2="26.500934375" width="0.1524" layer="1"/>
 <wire x1="96.984540625" y1="28.000934375" x2="97.771528125" y2="28.000934375" width="0.1524" layer="1"/>
 <wire x1="97.771528125" y1="28.000934375" x2="98.052240625" y2="27.720221875" width="0.1524" layer="1"/>
-<wire x1="98.912540625" y1="27.020934375" x2="98.052240625" y2="27.020934375" width="0.1524" layer="1"/>
 <via x="95.229540625" y="23.007734375" extent="1-16" drill="0.35"/>
-<wire x1="94.682540625" y1="21.940934375" x2="95.229540625" y2="22.487934375" width="0.1524" layer="1"/>
-<wire x1="95.229540625" y1="22.487934375" x2="95.229540625" y2="23.007734375" width="0.1524" layer="1"/>
+<wire x1="94.682540625" y1="21.940934375" x2="94.924740625" y2="22.183134375" width="0.1524" layer="1"/>
+<wire x1="94.924740625" y1="22.702934375" x2="95.229540625" y2="23.007734375" width="0.1524" layer="1"/>
+<wire x1="94.924740625" y1="22.702934375" x2="94.924740625" y2="22.183134375" width="0.1524" layer="1"/>
 <via x="103.179740625" y="1.468534375" extent="1-16" drill="0.35"/>
 <via x="100.182540625" y="16.860934375" extent="1-16" drill="0.35"/>
 <wire x1="102.722540625" y1="13.050934375" x2="101.872540625" y2="13.050934375" width="0.1524" layer="1"/>
@@ -5401,10 +5459,7 @@ wave soldering</description>
 <vertex x="82.402540625" y="23.718934375"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="95.102540625" y="23.210934375"/>
-<vertex x="93.832540625" y="21.940934375"/>
-<vertex x="93.832540625" y="16.860934375"/>
-<vertex x="95.102540625" y="15.590934375"/>
+<vertex x="95.102540625" y="15.082934375"/>
 <vertex x="95.102540625" y="2.890934375"/>
 <vertex x="97.185340625" y="0.808134375"/>
 <vertex x="103.738540625" y="0.808134375"/>
@@ -5414,8 +5469,6 @@ wave soldering</description>
 <vertex x="100.944540625" y="10.409334375"/>
 <vertex x="98.912540625" y="12.441334375"/>
 <vertex x="98.912540625" y="15.082934375"/>
-<vertex x="97.845740625" y="16.149734375"/>
-<vertex x="97.845740625" y="23.210934375"/>
 </polygon>
 <polygon width="0.1524" layer="1">
 <vertex x="100.182540625" y="16.860934375"/>
@@ -5476,8 +5529,6 @@ wave soldering</description>
 <wire x1="96.360740625" y1="7.970934375" x2="96.372540625" y2="7.959134375" width="0.1524" layer="1"/>
 <wire x1="96.372540625" y1="7.959134375" x2="96.372540625" y2="6.700934375" width="0.1524" layer="1"/>
 <via x="96.372540625" y="6.700934375" extent="1-16" drill="0.35"/>
-<wire x1="102.722540625" y1="25.750934375" x2="100.182540625" y2="25.750934375" width="0.1524" layer="1"/>
-<wire x1="100.182540625" y1="25.750934375" x2="98.912540625" y2="27.020934375" width="0.1524" layer="1"/>
 <wire x1="95.236340625" y1="23.000934375" x2="96.984540625" y2="23.000934375" width="0.254" layer="1"/>
 <wire x1="95.229540625" y1="23.007734375" x2="95.236340625" y2="23.000934375" width="0.254" layer="1"/>
 <wire x1="99.472540625" y1="20.012934375" x2="99.472540625" y2="17.570934375" width="0.254" layer="1"/>
@@ -5506,33 +5557,14 @@ wave soldering</description>
 <contactref element="CTEMP9" pad="2"/>
 <contactref element="CVC0-1" pad="2"/>
 <polygon width="0.254" layer="1">
-<vertex x="101.833540625" y="18.511934375"/>
-<vertex x="107.421540625" y="12.923934375"/>
+<vertex x="107.421540625" y="7.742334375"/>
 <vertex x="107.421540625" y="4.033934375"/>
 <vertex x="108.056540625" y="3.398934375"/>
 <vertex x="122.026540625" y="3.398934375"/>
 <vertex x="132.821540625" y="14.193934375"/>
-<vertex x="132.821540625" y="24.353934375"/>
-<vertex x="130.611740625" y="26.563734375"/>
-<vertex x="125.506340625" y="26.563734375"/>
-<vertex x="117.454540625" y="18.511934375"/>
-</polygon>
-<polygon width="0.254" layer="1">
-<vertex x="116.898665625" y="20.061334375"/>
-<vertex x="102.189140625" y="20.061334375"/>
-<vertex x="97.261540625" y="24.988934375"/>
-<vertex x="97.261540625" y="28.798934375"/>
-<vertex x="95.991540625" y="30.068934375"/>
-<vertex x="92.943540625" y="30.068934375"/>
-<vertex x="92.943540625" y="37.307934375"/>
-<vertex x="92.181540625" y="38.069934375"/>
-<vertex x="92.181540625" y="42.806678125"/>
-<vertex x="130.726396875" y="42.806678125"/>
-<vertex x="132.821540625" y="40.711534375"/>
-<vertex x="132.821540625" y="31.110334375"/>
-<vertex x="129.849740625" y="28.138534375"/>
-<vertex x="124.566540625" y="28.138534375"/>
-<vertex x="120.86595625" y="24.43795"/>
+<vertex x="132.821540625" y="17.572134375"/>
+<vertex x="128.554340625" y="21.839334375"/>
+<vertex x="114.457340625" y="7.742334375"/>
 </polygon>
 <polygon width="0.254" layer="2">
 <vertex x="95.991540625" y="30.068934375"/>
@@ -5604,9 +5636,6 @@ wave soldering</description>
 <via x="136.352140625" y="24.277734375" extent="1-16" drill="0.35"/>
 <via x="136.301340625" y="29.916534375" extent="1-16" drill="0.35"/>
 <contactref element="HIGH-IN" pad="01"/>
-<contactref element="RCB0-1" pad="1"/>
-<wire x1="94.7268625" y1="50.45329375" x2="90.327340625" y2="46.053771875" width="0.3048" layer="16"/>
-<wire x1="90.327340625" y1="41.438334375" x2="90.327340625" y2="46.053771875" width="0.3048" layer="16"/>
 <contactref element="HIGH-IN" pad="12"/>
 <contactref element="HIGH-IN" pad="02"/>
 <via x="94.7268625" y="50.45329375" extent="1-16" drill="0.35" diameter="0.55"/>
@@ -5616,12 +5645,181 @@ wave soldering</description>
 <wire x1="101.04335" y1="47.896275" x2="101.04911875" y2="47.89050625" width="0.3048" layer="1"/>
 <via x="101.06350625" y="50.448859375" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="94.7268625" y1="50.45329375" x2="94.7268625" y2="50.39726875" width="0.3048" layer="16"/>
-<wire x1="94.7268625" y1="50.39726875" x2="95.41359375" y2="49.7105375" width="0.3048" layer="16"/>
-<wire x1="95.41359375" y1="49.7105375" x2="100.341621875" y2="49.7105375" width="0.3048" layer="16"/>
 <wire x1="101.06350625" y1="50.448859375" x2="101.06350625" y2="50.432421875" width="0.3048" layer="16"/>
-<wire x1="101.06350625" y1="50.432421875" x2="100.341621875" y2="49.7105375" width="0.3048" layer="16"/>
+<wire x1="101.06350625" y1="50.432421875" x2="99.884421875" y2="49.2533375" width="0.508" layer="16"/>
 <wire x1="101.06350625" y1="50.448859375" x2="101.06350625" y2="47.90489375" width="0.3048" layer="1"/>
 <wire x1="101.06350625" y1="47.90489375" x2="101.04911875" y2="47.89050625" width="0.3048" layer="1"/>
+<contactref element="RGNDH" pad="1"/>
+<wire x1="92.789703125" y1="49.2533375" x2="90.627321875" y2="47.09095625" width="0.508" layer="16"/>
+<wire x1="90.363328125" y1="47.09095625" x2="90.627321875" y2="47.09095625" width="0.3048" layer="16"/>
+<via x="112.1664" y="19.7358" extent="1-16" drill="0.35"/>
+<polygon width="0.3048" layer="1" thermals="no">
+<vertex x="110.871" y="21.5646"/>
+<vertex x="111.4806" y="21.5646"/>
+<vertex x="113.157" y="19.8882"/>
+<vertex x="112.395" y="19.1262"/>
+<vertex x="111.9378" y="19.1262"/>
+<vertex x="111.0996" y="19.1262"/>
+<vertex x="109.8804" y="20.3454"/>
+<vertex x="109.8804" y="21.1836"/>
+<vertex x="110.1852" y="21.4884"/>
+<vertex x="110.2614" y="21.5646"/>
+</polygon>
+<polygon width="0.3048" layer="1" thermals="no">
+<vertex x="98.679" y="30.7086"/>
+<vertex x="106.299" y="30.7086"/>
+<vertex x="107.7468" y="29.2608"/>
+<vertex x="107.7468" y="21.7932"/>
+<vertex x="106.68" y="20.7264"/>
+<vertex x="98.8314" y="20.7264"/>
+<vertex x="97.6884" y="21.8694"/>
+<vertex x="97.6884" y="25.6794"/>
+<vertex x="98.3742" y="26.3652"/>
+<vertex x="98.3742" y="30.4038"/>
+</polygon>
+<via x="103.251" y="30.2514" extent="1-16" drill="0.35"/>
+<via x="104.394" y="30.2514" extent="1-16" drill="0.35"/>
+<via x="105.537" y="30.2514" extent="1-16" drill="0.35"/>
+<via x="107.2134" y="28.3464" extent="1-16" drill="0.35"/>
+<via x="107.2134" y="27.2034" extent="1-16" drill="0.35"/>
+<via x="107.2134" y="26.0604" extent="1-16" drill="0.35"/>
+<via x="104.013" y="21.2598" extent="1-16" drill="0.35"/>
+<via x="101.1936" y="21.2598" extent="1-16" drill="0.35"/>
+<via x="98.2218" y="25.9842" extent="1-16" drill="0.35"/>
+<polygon width="0.3048" layer="1">
+<vertex x="95.3262" y="51.2064"/>
+<vertex x="79.9338" y="51.2064"/>
+<vertex x="77.343" y="48.6156"/>
+<vertex x="77.343" y="40.6146"/>
+<vertex x="82.677" y="35.2806"/>
+<vertex x="83.82" y="35.2806"/>
+<vertex x="85.9536" y="37.4142"/>
+<vertex x="89.6112" y="37.4142"/>
+<vertex x="91.2114" y="35.814"/>
+<vertex x="91.2114" y="32.385"/>
+<vertex x="94.4118" y="29.1846"/>
+<vertex x="95.3262" y="30.099"/>
+</polygon>
+<polygon width="0.3048" layer="1" thermals="no">
+<vertex x="95.0214" y="23.8506"/>
+<vertex x="93.8784" y="22.7076"/>
+<vertex x="93.8784" y="16.764"/>
+<vertex x="95.0214" y="15.621"/>
+<vertex x="95.0214" y="15.0114"/>
+<vertex x="96.6216" y="16.6116"/>
+<vertex x="96.6216" y="21.8694"/>
+<vertex x="96.6216" y="22.2504"/>
+</polygon>
+<wire x1="124.439540625" y1="24.557134375" x2="126.076940625" y2="26.194534375" width="0.254" layer="1"/>
+<wire x1="126.076940625" y1="26.194534375" x2="127.106540625" y2="26.194534375" width="0.254" layer="1"/>
+<wire x1="99.884421875" y1="49.2533375" x2="96.4692" y2="49.2533375" width="0.508" layer="16"/>
+<wire x1="95.92681875" y1="49.2533375" x2="92.789703125" y2="49.2533375" width="0.508" layer="16"/>
+<wire x1="96.4692" y1="49.2533375" x2="95.92681875" y2="49.2533375" width="0.508" layer="16"/>
+<wire x1="95.92681875" y1="49.2533375" x2="94.7268625" y2="50.45329375" width="0.508" layer="16"/>
+<wire x1="131.195940625" y1="32.151734375" x2="136.098140625" y2="38.552534375" width="0" layer="19" extent="1-1"/>
+<wire x1="128.909940625" y1="29.891134375" x2="131.195940625" y2="32.151734375" width="0" layer="19" extent="1-1"/>
+<wire x1="134.116940625" y1="30.170534375" x2="131.195940625" y2="32.151734375" width="0" layer="19" extent="1-1"/>
+<wire x1="136.301340625" y1="29.916534375" x2="134.116940625" y2="30.170534375" width="0" layer="19" extent="1-1"/>
+<wire x1="134.015340625" y1="26.360534375" x2="134.116940625" y2="30.170534375" width="0" layer="19" extent="1-1"/>
+<wire x1="136.352140625" y1="24.277734375" x2="134.015340625" y2="26.360534375" width="0" layer="19" extent="1-1"/>
+<wire x1="130.306940625" y1="24.658734375" x2="134.015340625" y2="26.360534375" width="0" layer="19" extent="1-1"/>
+<wire x1="127.106540625" y1="26.194534375" x2="130.306940625" y2="24.658734375" width="0" layer="19" extent="1-1"/>
+<wire x1="134.066140625" y1="20.721734375" x2="136.352140625" y2="24.277734375" width="0" layer="19" extent="1-1"/>
+<wire x1="136.377540625" y1="17.114934375" x2="134.066140625" y2="20.721734375" width="0" layer="19" extent="1-1"/>
+<wire x1="134.091540625" y1="13.558934375" x2="136.377540625" y2="17.114934375" width="0" layer="19" extent="1-1"/>
+<wire x1="130.281540625" y1="14.828934375" x2="134.091540625" y2="13.558934375" width="0" layer="19" extent="1-1"/>
+<wire x1="130.687940625" y1="17.292734375" x2="130.281540625" y2="14.828934375" width="0" layer="19" extent="1-1"/>
+<wire x1="127.614540625" y1="16.264934375" x2="130.281540625" y2="14.828934375" width="0" layer="19" extent="1-1"/>
+<wire x1="124.820540625" y1="14.232934375" x2="127.614540625" y2="16.264934375" width="0" layer="19" extent="1-1"/>
+<wire x1="127.106540625" y1="12.288934375" x2="124.820540625" y2="14.232934375" width="0" layer="19" extent="1-1"/>
+<wire x1="122.026540625" y1="12.454934375" x2="124.820540625" y2="14.232934375" width="0" layer="19" extent="1-1"/>
+<wire x1="119.232540625" y1="10.676934375" x2="122.026540625" y2="12.454934375" width="0" layer="19" extent="1-1"/>
+<wire x1="116.438540625" y1="8.644934375" x2="119.232540625" y2="10.676934375" width="0" layer="19" extent="1-1"/>
+<wire x1="113.644540625" y1="6.866934375" x2="116.438540625" y2="8.644934375" width="0" layer="19" extent="1-1"/>
+<wire x1="124.566540625" y1="9.748934375" x2="127.106540625" y2="12.288934375" width="0" layer="19" extent="1-1"/>
+<wire x1="110.342540625" y1="5.342934375" x2="113.644540625" y2="6.866934375" width="0" layer="19" extent="1-1"/>
+<wire x1="108.183540625" y1="4.834934375" x2="110.342540625" y2="5.342934375" width="0" layer="19" extent="1-1"/>
+<wire x1="104.652940625" y1="6.040534375" x2="108.183540625" y2="4.834934375" width="0" layer="19" extent="1-1"/>
+<wire x1="106.16195" y1="1.62739375" x2="108.183540625" y2="4.834934375" width="0" layer="19" extent="1-1"/>
+<wire x1="103.179740625" y1="1.468534375" x2="106.16195" y2="1.62739375" width="0" layer="19" extent="1-1"/>
+<wire x1="101.090134375" y1="1.4413375" x2="101.109434375" y2="2.430734375" width="0" layer="19" extent="1-1"/>
+<wire x1="97.236140625" y1="2.941734375" x2="101.109434375" y2="2.430734375" width="0" layer="19" extent="1-1"/>
+<wire x1="97.236140625" y1="4.465734375" x2="97.236140625" y2="2.941734375" width="0" layer="19" extent="1-1"/>
+<wire x1="95.712140625" y1="4.465734375" x2="97.236140625" y2="4.465734375" width="0" layer="19" extent="1-1"/>
+<wire x1="95.712140625" y1="2.941734375" x2="97.236140625" y2="2.941734375" width="0" layer="19" extent="1-1"/>
+<wire x1="96.372540625" y1="6.700934375" x2="95.712140625" y2="4.465734375" width="0" layer="19" extent="1-1"/>
+<wire x1="97.007540625" y1="11.526934375" x2="96.360740625" y2="7.970934375" width="0" layer="19" extent="1-1"/>
+<wire x1="97.007540625" y1="12.923934375" x2="97.007540625" y2="11.526934375" width="0" layer="19" extent="1-1"/>
+<wire x1="97.007540625" y1="14.320934375" x2="97.007540625" y2="12.923934375" width="0" layer="19" extent="1-1"/>
+<wire x1="121.391540625" y1="7.208934375" x2="124.566540625" y2="9.748934375" width="0" layer="19" extent="1-1"/>
+<wire x1="118.851540625" y1="4.668934375" x2="121.391540625" y2="7.208934375" width="0" layer="19" extent="1-1"/>
+<wire x1="100.182540625" y1="16.860934375" x2="97.007540625" y2="14.320934375" width="0" layer="19" extent="1-1"/>
+<wire x1="101.1936" y1="21.2598" x2="99.472540625" y2="20.012934375" width="0" layer="19" extent="1-1"/>
+<wire x1="104.013" y1="21.2598" x2="101.1936" y2="21.2598" width="0" layer="19" extent="1-1"/>
+<wire x1="102.722540625" y1="14.320934375" x2="100.182540625" y2="16.860934375" width="0" layer="19" extent="1-1"/>
+<wire x1="102.722540625" y1="13.050934375" x2="102.722540625" y2="14.320934375" width="0" layer="19" extent="1-1"/>
+<wire x1="104.627540625" y1="12.415934375" x2="102.722540625" y2="13.050934375" width="0" layer="19" extent="1-1"/>
+<wire x1="96.984540625" y1="23.000934375" x2="99.472540625" y2="20.012934375" width="0" layer="19" extent="1-1"/>
+<wire x1="91.292540625" y1="19.400934375" x2="94.467540625" y2="19.742934375" width="0" layer="19" extent="1-1"/>
+<wire x1="91.292540625" y1="21.940934375" x2="90.872540625" y2="20.670934375" width="0" layer="19" extent="1-1"/>
+<wire x1="90.022540625" y1="23.210934375" x2="91.292540625" y2="21.940934375" width="0" layer="19" extent="1-1"/>
+<wire x1="90.022540625" y1="24.317934375" x2="90.022540625" y2="23.210934375" width="0" layer="19" extent="1-1"/>
+<wire x1="91.292540625" y1="24.343334375" x2="90.022540625" y2="24.317934375" width="0" layer="19" extent="1-1"/>
+<wire x1="88.752540625" y1="23.210934375" x2="90.022540625" y2="23.210934375" width="0" layer="19" extent="1-1"/>
+<wire x1="88.752540625" y1="21.940934375" x2="88.752540625" y2="23.210934375" width="0" layer="19" extent="1-1"/>
+<wire x1="87.482540625" y1="21.940934375" x2="88.752540625" y2="21.940934375" width="0" layer="19" extent="1-1"/>
+<wire x1="87.482540625" y1="24.480934375" x2="88.752540625" y2="23.210934375" width="0" layer="19" extent="1-1"/>
+<wire x1="86.212540625" y1="24.837734375" x2="87.482540625" y2="24.480934375" width="0" layer="19" extent="1-1"/>
+<wire x1="84.942540625" y1="24.837734375" x2="86.212540625" y2="24.837734375" width="0" layer="19" extent="1-1"/>
+<wire x1="83.672540625" y1="24.837734375" x2="84.942540625" y2="24.837734375" width="0" layer="19" extent="1-1"/>
+<wire x1="84.942540625" y1="26.234734375" x2="84.942540625" y2="24.837734375" width="0" layer="19" extent="1-1"/>
+<wire x1="86.212540625" y1="26.234734375" x2="84.942540625" y2="26.234734375" width="0" layer="19" extent="1-1"/>
+<wire x1="87.482540625" y1="26.234734375" x2="86.212540625" y2="26.234734375" width="0" layer="19" extent="1-1"/>
+<wire x1="83.672540625" y1="26.234734375" x2="84.942540625" y2="26.234734375" width="0" layer="19" extent="1-1"/>
+<wire x1="82.402540625" y1="26.234734375" x2="83.672540625" y2="26.234734375" width="0" layer="19" extent="1-1"/>
+<wire x1="88.777940625" y1="26.209334375" x2="87.482540625" y2="26.234734375" width="0" layer="19" extent="1-1"/>
+<wire x1="89.997140625" y1="26.183934375" x2="88.777940625" y2="26.209334375" width="0" layer="19" extent="1-1"/>
+<wire x1="91.267140625" y1="26.183934375" x2="89.997140625" y2="26.183934375" width="0" layer="19" extent="1-1"/>
+<wire x1="92.562540625" y1="26.209334375" x2="91.267140625" y2="26.183934375" width="0" layer="19" extent="1-1"/>
+<wire x1="87.533340625" y1="27.678534375" x2="87.482540625" y2="26.234734375" width="0" layer="19" extent="1-1"/>
+<wire x1="88.752540625" y1="27.684134375" x2="87.533340625" y2="27.678534375" width="0" layer="19" extent="1-1"/>
+<wire x1="90.022540625" y1="27.684134375" x2="88.752540625" y2="27.684134375" width="0" layer="19" extent="1-1"/>
+<wire x1="91.291190625" y1="27.684134375" x2="90.022540625" y2="27.684134375" width="0" layer="19" extent="1-1"/>
+<wire x1="92.561190625" y1="27.684134375" x2="91.291190625" y2="27.684134375" width="0" layer="19" extent="1-1"/>
+<wire x1="86.212540625" y1="27.703934375" x2="87.533340625" y2="27.678534375" width="0" layer="19" extent="1-1"/>
+<wire x1="84.967940625" y1="27.729334375" x2="86.212540625" y2="27.703934375" width="0" layer="19" extent="1-1"/>
+<wire x1="83.672540625" y1="27.703934375" x2="84.967940625" y2="27.729334375" width="0" layer="19" extent="1-1"/>
+<wire x1="82.402540625" y1="27.703934375" x2="83.672540625" y2="27.703934375" width="0" layer="19" extent="1-1"/>
+<wire x1="93.832540625" y1="27.020934375" x2="92.561190625" y2="27.684134375" width="0" layer="19" extent="1-1"/>
+<wire x1="86.212540625" y1="23.210934375" x2="86.212540625" y2="24.837734375" width="0" layer="19" extent="1-1"/>
+<wire x1="84.942540625" y1="21.940934375" x2="86.212540625" y2="23.210934375" width="0" layer="19" extent="1-1"/>
+<wire x1="84.092540625" y1="20.670934375" x2="84.942540625" y2="21.940934375" width="0" layer="19" extent="1-1"/>
+<wire x1="81.132540625" y1="21.940934375" x2="82.402540625" y2="20.670934375" width="0" layer="19" extent="1-1"/>
+<wire x1="81.132540625" y1="29.140934375" x2="82.402540625" y2="27.703934375" width="0" layer="19" extent="1-1"/>
+<wire x1="83.672540625" y1="18.130934375" x2="84.092540625" y2="20.670934375" width="0" layer="19" extent="1-1"/>
+<wire x1="81.767540625" y1="18.130934375" x2="83.672540625" y2="18.130934375" width="0" layer="19" extent="1-1"/>
+<wire x1="94.467540625" y1="30.068934375" x2="92.561190625" y2="27.684134375" width="0" layer="19" extent="1-1"/>
+<wire x1="98.2218" y1="25.9842" x2="96.984540625" y2="26.500934375" width="0" layer="19" extent="1-1"/>
+<wire x1="93.236540625" y1="31.084934375" x2="94.467540625" y2="30.068934375" width="0" layer="19" extent="1-1"/>
+<wire x1="89.717740625" y1="32.696934375" x2="93.236540625" y2="31.084934375" width="0" layer="19" extent="1-1"/>
+<wire x1="89.463740625" y1="35.047334375" x2="89.463740625" y2="33.916134375" width="0" layer="19" extent="1-1"/>
+<wire x1="87.279340625" y1="33.255734375" x2="89.463740625" y2="33.916134375" width="0" layer="19" extent="1-1"/>
+<wire x1="87.228540625" y1="35.860134375" x2="87.177740625" y2="34.488534375" width="0" layer="19" extent="1-1"/>
+<wire x1="84.561540625" y1="36.952334375" x2="87.228540625" y2="35.860134375" width="0" layer="19" extent="1-1"/>
+<wire x1="83.164540625" y1="38.857334375" x2="84.561540625" y2="36.952334375" width="0" layer="19" extent="1-1"/>
+<wire x1="102.722540625" y1="25.750934375" x2="98.2218" y2="25.9842" width="0" layer="19" extent="1-1"/>
+<wire x1="107.2134" y1="26.0604" x2="102.722540625" y2="25.750934375" width="0" layer="19" extent="1-1"/>
+<wire x1="107.2134" y1="27.2034" x2="107.2134" y2="26.0604" width="0" layer="19" extent="1-1"/>
+<wire x1="107.2134" y1="28.3464" x2="107.2134" y2="27.2034" width="0" layer="19" extent="1-1"/>
+<wire x1="105.537" y1="30.2514" x2="107.2134" y2="28.3464" width="0" layer="19" extent="1-1"/>
+<wire x1="104.394" y1="30.2514" x2="105.537" y2="30.2514" width="0" layer="19" extent="1-1"/>
+<wire x1="103.251" y1="30.2514" x2="104.394" y2="30.2514" width="0" layer="19" extent="1-1"/>
+<wire x1="130.916540625" y1="9.113934375" x2="127.106540625" y2="12.288934375" width="0" layer="19" extent="1-1"/>
+<wire x1="126.471540625" y1="4.033934375" x2="121.391540625" y2="7.208934375" width="0" layer="19" extent="1-1"/>
+<wire x1="110.952140625" y1="20.709934375" x2="107.2134" y2="26.0604" width="0" layer="19" extent="1-1"/>
+<wire x1="112.1664" y1="19.7358" x2="110.952140625" y2="20.709934375" width="0" layer="19" extent="1-1"/>
+<wire x1="87.990540625" y1="11.900934375" x2="83.672540625" y2="18.130934375" width="0" layer="19" extent="1-1"/>
+<wire x1="94.69911875" y1="44.46050625" x2="89.463740625" y2="35.047334375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VC1-IN-1">
 <contactref element="RVC1-1" pad="1"/>
@@ -5715,18 +5913,21 @@ wave soldering</description>
 <contactref element="HIGH-IN" pad="40"/>
 <wire x1="118.82911875" y1="47.89050625" x2="126.587528125" y2="47.89050625" width="0.6096" layer="1"/>
 <wire x1="126.587528125" y1="47.89050625" x2="130.60198125" y2="43.876053125" width="0.6096" layer="1"/>
-<wire x1="133.177140625" y1="41.152496875" x2="131.665340625" y2="42.664296875" width="0.3048" layer="16"/>
+<wire x1="133.177140625" y1="41.152496875" x2="131.665340625" y2="42.664296875" width="0.508" layer="16"/>
 <via x="131.665340625" y="42.664296875" extent="1-16" drill="0.35"/>
-<wire x1="131.665340625" y1="42.664296875" x2="130.60198125" y2="43.72765625" width="0.3048" layer="1"/>
+<wire x1="131.665340625" y1="42.664296875" x2="131.665340625" y2="43.87949375" width="0.508" layer="1"/>
+<wire x1="131.665340625" y1="43.87949375" x2="126.892328125" y2="48.65250625" width="0.508" layer="1"/>
 <wire x1="130.60198125" y1="43.72765625" x2="130.586340625" y2="43.743296875" width="0.3048" layer="1"/>
 <wire x1="130.586340625" y1="43.743296875" x2="130.586340625" y2="43.84954375" width="0.3048" layer="1"/>
-<wire x1="130.60198125" y1="43.876053125" x2="130.60198125" y2="43.72765625" width="0.3048" layer="1"/>
+<wire x1="130.60198125" y1="43.876053125" x2="130.60198125" y2="43.72765625" width="0.508" layer="1"/>
+<wire x1="126.892328125" y1="48.65250625" x2="119.59111875" y2="48.65250625" width="0.508" layer="1"/>
+<wire x1="119.59111875" y1="48.65250625" x2="118.82911875" y2="47.89050625" width="0.508" layer="1"/>
 </signal>
 <signal name="CB1-IN-1">
 <contactref element="RCB1-1" pad="1"/>
 <contactref element="HIGH-IN" pad="14"/>
 <wire x1="102.312484375" y1="50.45329375" x2="102.312484375" y2="50.375478125" width="0.3048" layer="16"/>
-<wire x1="102.312484375" y1="50.375478125" x2="93.375340625" y2="41.438334375" width="0.3048" layer="16"/>
+<wire x1="102.312484375" y1="50.375478125" x2="93.375340625" y2="41.438334375" width="0.508" layer="16"/>
 <via x="102.312484375" y="50.45329375" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="102.312484375" y1="50.45329375" x2="102.31911875" y2="50.446659375" width="0.3048" layer="1"/>
 <wire x1="102.31911875" y1="50.446659375" x2="102.31911875" y2="47.89050625" width="0.3048" layer="1"/>
@@ -5735,8 +5936,8 @@ wave soldering</description>
 <contactref element="RCB2-1" pad="1"/>
 <contactref element="HIGH-IN" pad="16"/>
 <wire x1="103.61305" y1="50.4874125" x2="103.613053125" y2="50.487409375" width="0.3048" layer="16"/>
-<wire x1="103.613053125" y1="50.487409375" x2="103.613053125" y2="49.250025" width="0.3048" layer="16"/>
-<wire x1="103.613053125" y1="49.250025" x2="96.474140625" y2="42.1111125" width="0.3048" layer="16"/>
+<wire x1="103.613053125" y1="50.487409375" x2="103.613053125" y2="49.250025" width="0.508" layer="16"/>
+<wire x1="103.613053125" y1="49.250025" x2="96.474140625" y2="42.1111125" width="0.508" layer="16"/>
 <wire x1="96.474140625" y1="42.1111125" x2="96.474140625" y2="41.438334375" width="0.3048" layer="16"/>
 <via x="103.61305" y="50.4874125" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="103.61305" y1="50.4874125" x2="103.61305" y2="47.9144375" width="0.3048" layer="1"/>
@@ -5747,8 +5948,8 @@ wave soldering</description>
 <wire x1="99.522140625" y1="41.438334375" x2="99.471340625" y2="41.489134375" width="0.3048" layer="16"/>
 <wire x1="99.471340625" y1="41.489134375" x2="99.471340625" y2="42.0548875" width="0.3048" layer="16"/>
 <contactref element="HIGH-IN" pad="18"/>
-<wire x1="104.909534375" y1="50.509375" x2="104.909534375" y2="47.49308125" width="0.3048" layer="16"/>
-<wire x1="104.909534375" y1="47.49308125" x2="99.471340625" y2="42.0548875" width="0.3048" layer="16"/>
+<wire x1="104.909534375" y1="50.509375" x2="104.909534375" y2="47.49308125" width="0.508" layer="16"/>
+<wire x1="104.909534375" y1="47.49308125" x2="99.471340625" y2="42.0548875" width="0.508" layer="16"/>
 <via x="104.909534375" y="50.509375" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="104.909534375" y1="50.509375" x2="104.909534375" y2="47.940921875" width="0.3048" layer="1"/>
 <wire x1="104.909534375" y1="47.940921875" x2="104.85911875" y2="47.89050625" width="0.3048" layer="1"/>
@@ -5757,9 +5958,9 @@ wave soldering</description>
 <contactref element="RCB4-1" pad="1"/>
 <wire x1="102.570140625" y1="41.489134375" x2="102.079671875" y2="41.979603125" width="0.3048" layer="16"/>
 <contactref element="HIGH-IN" pad="20"/>
-<wire x1="102.079671875" y1="41.979603125" x2="106.07560625" y2="45.9755375" width="0.3048" layer="16"/>
+<wire x1="102.079671875" y1="41.979603125" x2="106.07560625" y2="45.9755375" width="0.508" layer="16"/>
 <wire x1="106.07560625" y1="50.490678125" x2="106.083115625" y2="50.4981875" width="0.3048" layer="16"/>
-<wire x1="106.07560625" y1="50.490678125" x2="106.07560625" y2="45.9755375" width="0.3048" layer="16"/>
+<wire x1="106.07560625" y1="50.490678125" x2="106.07560625" y2="45.9755375" width="0.508" layer="16"/>
 <via x="106.083115625" y="50.4981875" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="106.083115625" y1="50.4981875" x2="106.083115625" y2="47.936509375" width="0.3048" layer="1"/>
 <wire x1="106.083115625" y1="47.936509375" x2="106.12911875" y2="47.89050625" width="0.3048" layer="1"/>
@@ -5768,8 +5969,8 @@ wave soldering</description>
 <contactref element="RCB5-1" pad="1"/>
 <wire x1="105.618140625" y1="41.438334375" x2="105.195053125" y2="41.861425" width="0.3048" layer="16"/>
 <contactref element="HIGH-IN" pad="22"/>
-<wire x1="107.37579375" y1="44.042165625" x2="107.37579375" y2="50.5280625" width="0.3048" layer="16" grouprefs="TESTING"/>
-<wire x1="107.37579375" y1="44.042165625" x2="105.195053125" y2="41.861425" width="0.3048" layer="16"/>
+<wire x1="107.37579375" y1="44.042165625" x2="107.37579375" y2="50.5280625" width="0.508" layer="16" grouprefs="TESTING"/>
+<wire x1="107.37579375" y1="44.042165625" x2="105.195053125" y2="41.861425" width="0.508" layer="16"/>
 <via x="107.37579375" y="50.5280625" extent="1-16" drill="0.35" diameter="0.55" grouprefs="TESTING"/>
 <wire x1="107.37579375" y1="50.5280625" x2="107.37579375" y2="47.91383125" width="0.3048" layer="1"/>
 <wire x1="107.37579375" y1="47.91383125" x2="107.39911875" y2="47.89050625" width="0.3048" layer="1"/>
@@ -5778,7 +5979,7 @@ wave soldering</description>
 <contactref element="RCB6-1" pad="1"/>
 <contactref element="HIGH-IN" pad="24"/>
 <wire x1="108.666140625" y1="41.438334375" x2="108.664978125" y2="41.438334375" width="0.3048" layer="16"/>
-<wire x1="108.664978125" y1="41.438334375" x2="108.664978125" y2="50.528065625" width="0.3048" layer="16" grouprefs="TESTING"/>
+<wire x1="108.664978125" y1="41.438334375" x2="108.664978125" y2="50.528065625" width="0.508" layer="16" grouprefs="TESTING"/>
 <via x="108.664978125" y="50.528065625" extent="1-16" drill="0.35" diameter="0.55" grouprefs="TESTING"/>
 <wire x1="108.664978125" y1="50.528065625" x2="108.664978125" y2="47.894646875" width="0.3048" layer="1"/>
 <wire x1="108.664978125" y1="47.894646875" x2="108.66911875" y2="47.89050625" width="0.3048" layer="1"/>
@@ -5788,16 +5989,16 @@ wave soldering</description>
 <wire x1="111.714140625" y1="41.438334375" x2="112.061828125" y2="41.786021875" width="0.3048" layer="16"/>
 <contactref element="HIGH-IN" pad="26"/>
 <via x="109.916790625" y="50.602840625" extent="1-16" drill="0.35" diameter="0.55" grouprefs="TESTING"/>
-<wire x1="109.916790625" y1="50.602840625" x2="109.916790625" y2="43.931059375" width="0.3048" layer="16"/>
-<wire x1="112.061828125" y1="41.786021875" x2="109.916790625" y2="43.931059375" width="0.3048" layer="16" grouprefs="TESTING"/>
+<wire x1="109.916790625" y1="50.602840625" x2="109.916790625" y2="43.931059375" width="0.508" layer="16"/>
+<wire x1="112.061828125" y1="41.786021875" x2="109.916790625" y2="43.931059375" width="0.508" layer="16" grouprefs="TESTING"/>
 <wire x1="109.916790625" y1="50.602840625" x2="109.916790625" y2="47.912834375" width="0.3048" layer="1"/>
 <wire x1="109.916790625" y1="47.912834375" x2="109.93911875" y2="47.89050625" width="0.3048" layer="1"/>
 </signal>
 <signal name="CB8-IN-1">
 <contactref element="RCB8-1" pad="1"/>
 <contactref element="HIGH-IN" pad="28"/>
-<wire x1="114.762140625" y1="41.438334375" x2="111.243340625" y2="44.957134375" width="0.3048" layer="16" grouprefs="TESTING"/>
-<wire x1="111.243340625" y1="44.957134375" x2="111.243340625" y2="50.65891875" width="0.3048" layer="16" grouprefs="TESTING"/>
+<wire x1="114.762140625" y1="41.438334375" x2="111.243340625" y2="44.957134375" width="0.508" layer="16" grouprefs="TESTING"/>
+<wire x1="111.243340625" y1="44.957134375" x2="111.243340625" y2="50.65891875" width="0.508" layer="16" grouprefs="TESTING"/>
 <via x="111.243340625" y="50.65891875" extent="1-16" drill="0.35" diameter="0.55" grouprefs="TESTING"/>
 <wire x1="111.243340625" y1="50.65891875" x2="111.243340625" y2="47.924728125" width="0.3048" layer="1"/>
 <wire x1="111.243340625" y1="47.924728125" x2="111.20911875" y2="47.89050625" width="0.3048" layer="1"/>
@@ -5805,8 +6006,8 @@ wave soldering</description>
 <signal name="CB9-IN-1">
 <contactref element="RCB9-1" pad="1"/>
 <contactref element="HIGH-IN" pad="30"/>
-<wire x1="117.810140625" y1="41.438334375" x2="112.49515625" y2="46.75331875" width="0.3048" layer="16"/>
-<wire x1="112.49515625" y1="46.75331875" x2="112.49515625" y2="50.6776125" width="0.3048" layer="16" grouprefs="TESTING"/>
+<wire x1="117.810140625" y1="41.438334375" x2="112.49515625" y2="46.75331875" width="0.508" layer="16"/>
+<wire x1="112.49515625" y1="46.75331875" x2="112.49515625" y2="50.6776125" width="0.508" layer="16" grouprefs="TESTING"/>
 <via x="112.49515625" y="50.6776125" extent="1-16" drill="0.35" diameter="0.55" grouprefs="TESTING"/>
 <wire x1="112.49515625" y1="50.6776125" x2="112.49515625" y2="47.90654375" width="0.3048" layer="1"/>
 <wire x1="112.49515625" y1="47.90654375" x2="112.47911875" y2="47.89050625" width="0.3048" layer="1"/>
@@ -5964,8 +6165,8 @@ wave soldering</description>
 <signal name="CB10-IN">
 <contactref element="RCB10" pad="1"/>
 <contactref element="LOW-IN" pad="32"/>
-<wire x1="27.409134375" y1="1.6448125" x2="27.409134375" y2="5.770715625" width="0.4064" layer="16"/>
-<wire x1="27.409134375" y1="5.770715625" x2="21.67039375" y2="11.50945625" width="0.4064" layer="16"/>
+<wire x1="27.409134375" y1="1.6448125" x2="27.409134375" y2="5.770715625" width="0.508" layer="16"/>
+<wire x1="27.409134375" y1="5.770715625" x2="21.67039375" y2="11.50945625" width="0.508" layer="16"/>
 <via x="27.409134375" y="1.6448125" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="27.409134375" y1="1.6448125" x2="27.381671875" y2="1.672275" width="0.3048" layer="1"/>
 <wire x1="27.381671875" y1="1.672275" x2="27.381671875" y2="4.185765625" width="0.3048" layer="1"/>
@@ -6109,8 +6310,8 @@ wave soldering</description>
 <wire x1="18.63455" y1="11.493225" x2="18.63455" y2="11.4973" width="0.3048" layer="16"/>
 <contactref element="LOW-IN" pad="34"/>
 <via x="26.119953125" y="1.588740625" extent="1-16" drill="0.35" diameter="0.55"/>
-<wire x1="26.119953125" y1="1.588740625" x2="26.119953125" y2="4.007821875" width="0.4064" layer="16"/>
-<wire x1="26.119953125" y1="4.007821875" x2="18.63455" y2="11.493225" width="0.4064" layer="16"/>
+<wire x1="26.119953125" y1="1.588740625" x2="26.119953125" y2="4.007821875" width="0.508" layer="16"/>
+<wire x1="26.119953125" y1="4.007821875" x2="18.63455" y2="11.493225" width="0.508" layer="16"/>
 <wire x1="26.119953125" y1="1.588740625" x2="26.119953125" y2="4.177484375" width="0.3048" layer="1"/>
 <wire x1="26.119953125" y1="4.177484375" x2="26.111671875" y2="4.185765625" width="0.3048" layer="1"/>
 </signal>
@@ -6118,8 +6319,8 @@ wave soldering</description>
 <contactref element="RCB12" pad="1"/>
 <contactref element="LOW-IN" pad="36"/>
 <via x="24.849453125" y="1.513975" extent="1-16" drill="0.35" diameter="0.55"/>
-<wire x1="24.849453125" y1="1.513975" x2="24.849453125" y2="2.27944375" width="0.4064" layer="16"/>
-<wire x1="24.849453125" y1="2.27944375" x2="15.619440625" y2="11.50945625" width="0.4064" layer="16"/>
+<wire x1="24.849453125" y1="1.513975" x2="24.849453125" y2="2.27944375" width="0.508" layer="16"/>
+<wire x1="24.849453125" y1="2.27944375" x2="15.619440625" y2="11.50945625" width="0.508" layer="16"/>
 <wire x1="15.619440625" y1="11.50945625" x2="15.57439375" y2="11.50945625" width="0.4064" layer="16"/>
 <wire x1="24.849453125" y1="1.513975" x2="24.841671875" y2="1.52175625" width="0.3048" layer="1"/>
 <wire x1="24.841671875" y1="1.52175625" x2="24.841671875" y2="4.185765625" width="0.3048" layer="1"/>
@@ -6176,14 +6377,14 @@ wave soldering</description>
 <contactref element="CVC12-1" pad="2"/>
 <contactref element="IC1" pad="13"/>
 <wire x1="108.460540625" y1="28.000934375" x2="108.470940625" y2="28.011334375" width="0.254" layer="1"/>
-<wire x1="108.470940625" y1="28.011334375" x2="110.367740625" y2="28.011334375" width="0.254" layer="1"/>
 <wire x1="112.507340625" y1="28.578134375" x2="112.526940625" y2="28.558534375" width="0.254" layer="1"/>
 <wire x1="112.507340625" y1="28.578134375" x2="110.934540625" y2="28.578134375" width="0.254" layer="1"/>
-<wire x1="110.367740625" y1="28.011334375" x2="110.934540625" y2="28.578134375" width="0.254" layer="1"/>
 <wire x1="112.526940625" y1="28.558534375" x2="112.855340625" y2="28.886934375" width="0.4064" layer="1"/>
 <wire x1="112.855340625" y1="28.886934375" x2="114.965340625" y2="28.886934375" width="0.4064" layer="1"/>
 <wire x1="114.965340625" y1="28.886934375" x2="121.137540625" y2="35.059134375" width="0.4064" layer="1"/>
 <wire x1="121.137540625" y1="35.059134375" x2="121.137540625" y2="38.185134375" width="0.4064" layer="1"/>
+<wire x1="110.357340625" y1="28.000934375" x2="108.460540625" y2="28.000934375" width="0.254" layer="1"/>
+<wire x1="110.934540625" y1="28.578134375" x2="110.357340625" y2="28.000934375" width="0.254" layer="1"/>
 </signal>
 <signal name="CB12-1">
 <contactref element="CCB12-1" pad="1"/>
@@ -6273,8 +6474,8 @@ wave soldering</description>
 </signal>
 <signal name="CB10-IN-1">
 <contactref element="RCB10-1" pad="1"/>
-<wire x1="113.765653125" y1="50.6776125" x2="113.765653125" y2="48.556221875" width="0.3048" layer="16" grouprefs="TESTING"/>
-<wire x1="120.883540625" y1="41.438334375" x2="113.765653125" y2="48.556221875" width="0.3048" layer="16" grouprefs="TESTING"/>
+<wire x1="113.765653125" y1="50.6776125" x2="113.765653125" y2="48.556221875" width="0.508" layer="16" grouprefs="TESTING"/>
+<wire x1="120.883540625" y1="41.438334375" x2="113.765653125" y2="48.556221875" width="0.508" layer="16" grouprefs="TESTING"/>
 <contactref element="HIGH-IN" pad="32"/>
 <via x="113.765653125" y="50.6776125" extent="1-16" drill="0.35" diameter="0.55" grouprefs="TESTING"/>
 <wire x1="113.765653125" y1="50.6776125" x2="113.765653125" y2="47.907040625" width="0.3048" layer="1"/>
@@ -6313,9 +6514,9 @@ wave soldering</description>
 <contactref element="RCB12-1" pad="1"/>
 <contactref element="HIGH-IN" pad="36"/>
 <via x="116.31319375" y="50.715" extent="1-16" drill="0.35" diameter="0.55" grouprefs="TESTING"/>
-<wire x1="127.004940625" y1="41.438334375" x2="125.6777125" y2="42.7655625" width="0.3048" layer="16"/>
-<wire x1="125.6777125" y1="42.7655625" x2="124.23075625" y2="42.7655625" width="0.3048" layer="16"/>
-<wire x1="124.23075625" y1="42.7655625" x2="116.31319375" y2="50.683125" width="0.3048" layer="16"/>
+<wire x1="127.004940625" y1="41.438334375" x2="125.4491125" y2="42.9941625" width="0.508" layer="16"/>
+<wire x1="125.4491125" y1="42.9941625" x2="124.00215625" y2="42.9941625" width="0.508" layer="16"/>
+<wire x1="124.00215625" y1="42.9941625" x2="116.31319375" y2="50.683125" width="0.508" layer="16"/>
 <wire x1="116.31319375" y1="50.715" x2="116.31319375" y2="50.683125" width="0.3048" layer="16"/>
 <wire x1="116.31319375" y1="50.715" x2="116.31319375" y2="47.91458125" width="0.3048" layer="1"/>
 <wire x1="116.31319375" y1="47.91458125" x2="116.28911875" y2="47.89050625" width="0.3048" layer="1"/>
@@ -6334,7 +6535,7 @@ wave soldering</description>
 <contactref element="RCB11-1" pad="1"/>
 <wire x1="123.956940625" y1="41.438334375" x2="123.956940625" y2="41.766153125" width="0.3048" layer="16"/>
 <wire x1="115.036153125" y1="50.715" x2="115.036153125" y2="50.686940625" width="0.3048" layer="16" grouprefs="TESTING"/>
-<wire x1="123.956940625" y1="41.766153125" x2="115.036153125" y2="50.686940625" width="0.3048" layer="16" grouprefs="TESTING"/>
+<wire x1="123.956940625" y1="41.766153125" x2="115.036153125" y2="50.686940625" width="0.508" layer="16" grouprefs="TESTING"/>
 <contactref element="HIGH-IN" pad="34"/>
 <via x="115.036153125" y="50.715" extent="1-16" drill="0.35" diameter="0.55" grouprefs="TESTING"/>
 <wire x1="115.036153125" y1="50.715" x2="115.036153125" y2="47.907540625" width="0.3048" layer="1"/>
@@ -6368,21 +6569,21 @@ wave soldering</description>
 <signal name="CB13-IN">
 <contactref element="RCB13" pad="1"/>
 <contactref element="LOW-IN" pad="38"/>
-<wire x1="12.52639375" y1="11.50945625" x2="13.86771875" y2="10.16813125" width="0.4064" layer="16"/>
-<wire x1="15.30739375" y1="10.16813125" x2="13.86771875" y2="10.16813125" width="0.4064" layer="16"/>
-<wire x1="23.57895625" y1="1.89656875" x2="23.57895625" y2="1.476771875" width="0.4064" layer="16"/>
-<wire x1="23.57895625" y1="1.89656875" x2="15.30739375" y2="10.16813125" width="0.4064" layer="16"/>
+<wire x1="12.52639375" y1="11.50945625" x2="14.09631875" y2="9.93953125" width="0.508" layer="16"/>
+<wire x1="15.53599375" y1="9.93953125" x2="14.09631875" y2="9.93953125" width="0.508" layer="16"/>
+<wire x1="23.57895625" y1="1.89656875" x2="23.57895625" y2="1.476771875" width="0.508" layer="16"/>
+<wire x1="23.57895625" y1="1.89656875" x2="15.53599375" y2="9.93953125" width="0.508" layer="16"/>
 <via x="23.57895625" y="1.476771875" extent="1-16" drill="0.35" diameter="0.55"/>
 <wire x1="23.57895625" y1="1.476771875" x2="23.57895625" y2="4.17848125" width="0.3048" layer="1"/>
 <wire x1="23.57895625" y1="4.17848125" x2="23.571671875" y2="4.185765625" width="0.3048" layer="1"/>
 </signal>
 <signal name="CB13-IN-1">
 <contactref element="RCB13-1" pad="1"/>
-<wire x1="130.103740625" y1="41.006534375" x2="130.103740625" y2="41.125215625" width="0.3048" layer="16"/>
-<wire x1="130.103740625" y1="41.125215625" x2="127.790784375" y2="43.438171875" width="0.3048" layer="16"/>
+<wire x1="130.103740625" y1="41.006534375" x2="130.103740625" y2="41.430015625" width="0.3048" layer="16"/>
+<wire x1="130.103740625" y1="41.430015625" x2="127.714584375" y2="43.819171875" width="0.508" layer="16"/>
 <contactref element="HIGH-IN" pad="38"/>
-<wire x1="127.790784375" y1="43.438171875" x2="124.7135875" y2="43.438171875" width="0.3048" layer="16"/>
-<wire x1="124.7135875" y1="43.438171875" x2="117.423190625" y2="50.72856875" width="0.3048" layer="16" grouprefs="TESTING"/>
+<wire x1="127.714584375" y1="43.819171875" x2="124.3325875" y2="43.819171875" width="0.508" layer="16"/>
+<wire x1="124.3325875" y1="43.819171875" x2="117.423190625" y2="50.72856875" width="0.508" layer="16" grouprefs="TESTING"/>
 <via x="117.423190625" y="50.72856875" extent="1-16" drill="0.35" grouprefs="TESTING"/>
 <wire x1="117.423190625" y1="50.72856875" x2="117.423190625" y2="48.026434375" width="0.3048" layer="1"/>
 <wire x1="117.423190625" y1="48.026434375" x2="117.55911875" y2="47.89050625" width="0.3048" layer="1"/>
@@ -6431,6 +6632,23 @@ wave soldering</description>
 <wire x1="40.046528125" y1="8.729321875" x2="41.799809375" y2="10.482603125" width="0.4064" layer="1"/>
 <wire x1="41.799809375" y1="10.482603125" x2="42.9695" y2="10.482603125" width="0.4064" layer="1"/>
 <wire x1="42.9695" y1="10.482603125" x2="43.521621875" y2="11.034725" width="0.4064" layer="1"/>
+</signal>
+<signal name="CB0-IN">
+<contactref element="RCB0" pad="1"/>
+<contactref element="RGNDL" pad="2"/>
+<wire x1="52.744840625" y1="6.4339625" x2="52.682378125" y2="6.496425" width="0.4064" layer="16"/>
+<wire x1="52.682378125" y1="11.104471875" x2="52.682378125" y2="6.496425" width="0.508" layer="16"/>
+<wire x1="52.682378125" y1="11.104471875" x2="52.27739375" y2="11.50945625" width="0.508" layer="16"/>
+</signal>
+<signal name="CB0-IN-1">
+<contactref element="RCB0-1" pad="1"/>
+<contactref element="RGNDH" pad="2"/>
+<wire x1="90.327340625" y1="41.438334375" x2="90.0370125" y2="41.7286625" width="0.508" layer="16"/>
+<wire x1="90.0370125" y1="45.064640625" x2="90.363328125" y2="45.39095625" width="0.508" layer="16"/>
+<wire x1="90.0370125" y1="41.7286625" x2="90.0370125" y2="45.064640625" width="0.508" layer="16"/>
+</signal>
+<signal name="GNDH1">
+<via x="40.005" y="32.6136" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
